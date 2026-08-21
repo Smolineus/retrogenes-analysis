@@ -1,4 +1,4 @@
-# Retrogeny człowieka — analiza genomowa
+# Retrogeny człowieka - analiza genomowa
 
 Analiza retrogenów z pliku `human_retrocopies_merged.bed` (14 874 retrogenów, hs1),
 ich klasyfikacja genomowa, walidacja długimi odczytami ENCODE oraz przygotowanie
@@ -29,7 +29,7 @@ merged_gtf/                     ← porzucone podejście (scalony GTF)
 Publications/                   ← publikacje źródłowe (pliki .txt)
 ```
 
-## Dane wejściowe (NIE w repo — pobierz samodzielnie)
+## Dane wejściowe (NIE w repo - pobierz samodzielnie)
 
 | Plik | Źródło |
 |------|--------|
