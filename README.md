@@ -40,13 +40,13 @@ Publications/                   ← publikacje źródłowe (pliki .txt)
 
 ## Metodyka (skrót)
 
-1. **Klasyfikacja** — priorytet: CDS 1 egzon → intron → reszta → intergenic.
+1. **Klasyfikacja** - priorytet: CDS 1 egzon → intron → reszta → intergenic.
    - intronowe: 0% overlapu z eksonem (po filtrze self-overlapu po nazwie genu)
    - self-hit: retrogen mający tylko siebie jako gene_id → międzygenowe
-2. **Walidacja ENCODE** — `bedtools intersect -f 0.1 -F 0.1`
-3. **Selekcja transkryptów** — intronowe: single-exon > długość zbliżona > lider 5';
+2. **Walidacja ENCODE** - `bedtools intersect -f 0.1 -F 0.1`
+3. **Selekcja transkryptów** - intronowe: single-exon > długość zbliżona > lider 5';
    intergenic/CDS: długość zbliżona > lider 5'
-4. **Sekwencje** — `bedtools getfasta -split -s` (eksony poskładane, nić uwzględniona)
+4. **Sekwencje** - `bedtools getfasta -split -s` (eksony poskładane, nić uwzględniona)
 
 ## Wymagania
 
