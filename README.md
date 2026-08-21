@@ -29,7 +29,7 @@ merged_gtf/                     ← porzucone podejście (scalony GTF)
 Publications/                   ← publikacje źródłowe (pliki .txt)
 ```
 
-## Dane wejściowe (NIE w repo - pobierz samodzielnie)
+## Dane wejściowe (NIE w repo)
 
 | Plik | Źródło |
 |------|--------|
