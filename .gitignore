@@ -1,0 +1,39 @@
+# ==== GENOM REFERENCYJNY hs1 (3 GB, pobieralny z UCSC) ====
+hs1.fa
+hs1.fa.gz
+hs1.fa.fai
+hs1.2bit
+hs1.repeatModeler.2bit
+
+# ==== ADNOTACJE GTF/GFF (setki MB, pobieralne z UCSC) ====
+*.gtf
+*.gtf.gz
+*.gff
+*.gff3
+
+# ==== FORMAT BINARNY UCSC ====
+*.bb
+
+# ==== DUZE POSREDNIE PLIKI (generowane, setki MB) ====
+*.genePred
+exons.bed
+transcript_cordinates_all.bed
+inside_transcripts*.bed
+
+# ==== NARZEDZIA UCSC (binarne, pobieralne) ====
+bigGenePredToGenePred
+genePredToGtf
+liftOver
+
+# ==== WEJSCIOWE ENCODE (32 MB, odtwarzalne przez liftover) ====
+encode4_long_liftover.bed
+
+# ==== TYMCZASOWE ====
+*.tmp
+*.log
+.DS_Store
+__pycache__/
+*.pyc
+
+# Metadane Windows z pobierania plików
+*:Zone.Identifier

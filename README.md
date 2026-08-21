@@ -1,0 +1,55 @@
+# Retrogeny człowieka — analiza genomowa
+
+Analiza retrogenów z pliku `human_retrocopies_merged.bed` (14 874 retrogenów, hs1),
+ich klasyfikacja genomowa, walidacja długimi odczytami ENCODE oraz przygotowanie
+sekwencji transkryptów do analizy GC content.
+
+## Struktura projektu
+
+```
+strict/                         ← FINALNA analiza (najważniejsza)
+├── classify_4lists_strict.sh   ← klasyfikacja retrogenów na 4 listy
+├── validate_encode4_strict.sh  ← walidacja ENCODE (intersekcja)
+├── select_encode4_transcripts.py ← selekcja 1 transkryptu ENCODE na retrogen
+├── fix_intronic_by_ensg.py     ← poprawka multi-exon (tylko intronowe)
+├── list1_intergenic_strict.bed  ← 5 205 międzygenowych
+├── list2_intronic_strict.bed    ← 3 191 intronowych
+├── list3_cds_one_exon_strict.bed ← 768 CDS w 1 egzonie
+├── list4_other_strict.bed       ← 5 710 reszta
+├── list5_selfhit.bed            ← 3 256 self-hit
+├── selected_encode4_{intergenic,intronic,cds}.bed ← wybrane transkrypty ENCODE
+└── fasta/
+    ├── intergenic_transcripts.fa ← 941 sekwencji
+    ├── intronic_transcripts.fa   ← 1 038 sekwencji
+    └── cds_transcripts.fa        ← 398 sekwencji
+
+ncbi_final/                     ← pośrednia wersja (elastyczne progi)
+cat_liftoff/                    ← porzucone podejście (CAT+Liftoff GTF)
+merged_gtf/                     ← porzucone podejście (scalony GTF)
+Publications/                   ← publikacje źródłowe (pliki .txt)
+```
+
+## Dane wejściowe (NIE w repo — pobierz samodzielnie)
+
+| Plik | Źródło |
+|------|--------|
+| `human_retrocopies_merged.bed` | prof. Szcześniak (CAT+Liftoff na hs1) |
+| `hs1.ncbiRefSeq.bigZip.gtf.gz` | UCSC → hs1 → ncbiRefSeq |
+| `hs1.fa.gz` | UCSC → hs1 → bigZips |
+| `encode4_long_liftover.bed` | ENCODE4 long reads (hg38), liftover → hs1 (narzędzie `liftOver` + `hg38ToHs1.over.chain.gz`) |
+
+## Metodyka (skrót)
+
+1. **Klasyfikacja** — priorytet: CDS 1 egzon → intron → reszta → intergenic.
+   - intronowe: 0% overlapu z eksonem (po filtrze self-overlapu po nazwie genu)
+   - self-hit: retrogen mający tylko siebie jako gene_id → międzygenowe
+2. **Walidacja ENCODE** — `bedtools intersect -f 0.1 -F 0.1`
+3. **Selekcja transkryptów** — intronowe: single-exon > długość zbliżona > lider 5';
+   intergenic/CDS: długość zbliżona > lider 5'
+4. **Sekwencje** — `bedtools getfasta -split -s` (eksony poskładane, nić uwzględniona)
+
+## Wymagania
+
+- bedtools, samtools
+- Python 3 (skrypty selekcji)
+- liftOver (tylko do regeneracji `encode4_long_liftover.bed`)

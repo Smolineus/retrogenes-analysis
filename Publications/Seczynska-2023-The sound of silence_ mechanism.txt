@@ -1,0 +1,1438 @@
+Trends in
+
+Genetics
+
+OPEN ACCESS
+
+Feature Review
+
+The sound of silence: mechanisms and
+implications of HUSH complex function
+Marta Seczynska1,@,* and Paul J. Lehner
+
+1,
+
+*
+
+The vertebrate genome is under constant threat of invasion by genetic parasites.
+Whether the host can immediately recognize and respond to invading elements
+has been unclear. The discovery of the human silencing hub (HUSH) complex,
+and the ﬁnding that it provides immediate protection from genome invasion by
+silencing products of reverse transcription, have important implications for
+mammalian genome evolution. In this review, we summarize recent insights
+into HUSH function and describe how cellular introns provide a novel means of
+self–nonself discrimination, allowing HUSH to recognize and transcriptionally repress a broad range of intronless genetic elements. We discuss how HUSH contributes to genome evolution, and highlight studies reporting the critical role of
+HUSH in development and implicating HUSH in the control of immune signaling
+and cancer progression.
+
+Highlights
+
+When ‘nonself’ becomes ‘self’: genome defense and co-option
+
+HUSH – a complex of transcription activation suppressor (TASOR), M-phase
+phosphoprotein 8 (MPP8), and
+periphilin – is an RNA-mediated transcriptional silencing system. Periphilin
+binds RNA and guides HUSH to its target loci where HUSH recruits Su(var)39, Enhancer-of-zeste and Trithorax
+(SET) domain bifurcated histone lysine
+methyltransferase 1 (SETDB1) to deposit histone 3 lysine 9 trimethylation
+(H3K9me3) and additional effectors:
+microrchidia CW-type zinc ﬁnger 2
+(MORC2) and the nuclear exosome
+targeting (NEXT) complex. H3K9me3
+is bound by MPP8, helps to maintain
+HUSH at the locus, but may be dispensable for repression.
+
+The epigenetic repressor human silencing hub (HUSH) emerges as a
+critical genome defense pathway.
+HUSH safeguards the genome
+against retroelement invasion and
+controls the reverse ﬂow of genetic information (RNA–DNA) in mammalian
+genomes.
+Long, intronless complementary DNA
+(cDNA), the characteristic of RNA-derived elements, enables HUSH to discriminate ‘nonself’ intronless invading
+DNAs from ‘self’ intron-containing host
+genes.
+
+The ability to discriminate self from nonself is the hallmark of the immune system, and is particularly
+important in the recognition of nucleic acid and defense against invading pathogens [1]. Vertebrates are equipped with a dazzling array of nucleic acid receptors which recognize foreign, incoming DNA and RNA, and induce a cell-autonomous immune response against invading pathogens
+[2]. An efﬁcient response requires sensing of foreign nucleic acids while ignoring self nucleic
+acids. Such discrimination can be challenging, as some pathogens integrate into the host genome
+and become ‘self’. Integration into the genome beneﬁts these pathogens, as they can utilize host
+machinery to replicate, but can also beneﬁt the host as these genetic parasites provide a source
+of genetic material which can be co-opted (co-option, see Glossary) and contribute to host genome evolution through molecular domestication [3–5]. Indeed, nearly half of the human genome
+is made up of genetic parasites such as viruses and transposons [6], some of which remain mobile
+and continue to spread (Box 1). The acquisition of genetic parasites by the host genome necessitates cooperation between genome defense pathways that must recognize and control the spread
+of invading elements and pathways that utilize element-derived sequences for host genome regulatory functions (Box 2). Understanding how the host recognizes and controls ‘nonself’ genetic parasites to defend the genome against their activity and ultimately co-opt them for its own beneﬁt
+remains a fundamental question in biology and is key to understanding human genome evolution.
+Most eukaryotic genomes are dominated by retroelements (retrotransposons and retroviruses) with minimal DNA transposon accumulation. Being RNA-derived, retroelements are reverse transcribed to complementary DNA (cDNA) and integrated into the host genome. The
+ﬁnding that 42% of the human genome is retroelement-derived emphasizes the dominant role
+of these products of reverse transcription and the reverse transcriptase enzyme itself in shaping
+our genome [6]. But how can the host cell distinguish integrated retroelement-derived DNA from
+its own genes (self DNA) to control its activity? That is, are integrated retroelements visible to the
+immune system, or do they remain in stealth mode and undetected? Our discovery and
+
+HUSH is critical for embryonic development, has far-reaching implications for
+genome evolution, and has relevance
+for cancer and gene therapies.
+
+1
+
+Cambridge Institute for Therapeutic
+Immunology & Infectious Disease, Jeffrey
+Cheah Biomedical Centre, Cambridge
+Biomedical Campus, University of
+Cambridge, Cambridge CB2 0AW, UK
+
+Trends in Genetics, April 2023, Vol. 39, No. 4 https://doi.org/10.1016/j.tig.2022.12.005
+© 2023 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+
+251
+
+Trends in Genetics
+OPEN ACCESS
+
+Box 1. Transposable element classiﬁcation and contribution to genetic innovation
+Nearly half of our genome can be traced to transposable elements [71]. There are many different types of transposons,
+with two major classes – retrotransposons and DNA transposons – distinguished on the basis of the mechanism used
+to spread within the genome [72,73]. Retrotransposons replicate via a ‘copy-and-paste’ mechanism which uses an
+RNA intermediate; the RNA is reverse transcribed into a cDNA copy and integrated into the genome [72]. In contrast,
+the majority of DNA transposons mobilize through a cut-and-paste mechanism, in which the transposon itself is excised
+and moved to a new genomic location, usually with the help of the transposon-encoded enzyme [74,75]. Both classes of
+transposable elements can be subdivided further, deﬁned primarily according to the mechanisms of replication and/or
+chromosomal integration [73]. Thus, retrotransposons are divided into: (i) long terminal repeat (LTR) retrotransposons,
+for which the integration occurs via a cleavage and strand-transfer reaction catalyzed by an integrase [76], similar to retroviruses, and (ii) non-LTR retrotransposons, including long and short interspersed nuclear elements (LINEs, SINEs),
+and SINE-VNTR-Alu (SVAs), for which chromosomal integration is coupled to reverse transcription through a process
+called target-primed reverse transcription (TPRT) [77]. In TPRT, reverse transcriptase uses the L1 RNA as a template to
+extend the 3′-OH group which is revealed at the L1 target site of chromosomal DNA following a nick from the L1 endonuclease. Each retrotransposon subclass can be further divided into superfamilies and families which are characterized in
+terms of their phylogenetic relationships.
+Transposons provides their host with a rich source of raw genetic material for genome evolution. They facilitate the formation
+of new genes (Box 5), donate regulatory sequences that inﬂuence host gene expression, modify 3D chromatin structure, and
+give rise to novel proteins and regulatory components, including transcription factors and noncoding RNAs [3–6,78].
+
+characterization of the HUSH epigenetic repressor complex uncovered an unanticipated mechanism for discriminating ‘self’ from ‘nonself’ DNA and the control of retroelement activity within the
+genome; this has important implications for genome regulation and evolution. HUSH is a versatile,
+cell-autonomous genome defense system, which transcriptionally represses RNA-derived
+elements, including long interspersed element-1 (LINE1, L1), the only autonomous mobile
+transposon in humans. By silencing products of reverse transcription, HUSH controls the reverse
+ﬂow of genetic information within the genome. In this review we discuss recent advances in our
+understanding of HUSH function: how HUSH recognizes and silences its targets, how it provides
+innate immunity against genome invasion, and how it may cooperate with other cellular
+pathways to control mobile DNAs. We also highlight emerging studies that describe the critical
+role of HUSH during development, and implicate HUSH in the control of immune signaling and
+cancer progression.
+
+The HUSH complex safeguards the genome against retroelement invasion
+The HUSH complex is a heterotrimer, composed of transcription activation suppressor (TASOR),
+M-phase phosphoprotein 8 (MPP8), and periphilin, and is conserved from ﬁsh to mammals.
+HUSH was ﬁrst identiﬁed through forward genetic screens for factors required for the silencing
+of a subset of viral integrations [7] (Box 3). To silence newly integrated retroviruses, HUSH recruits
+two effectors: MORC2, an ATP-dependent chromatin remodeler which compacts chromatin,
+and SETDB1, a histone methyltransferase which deposits histone 3 lysine 9 trimethylation
+(H3K9me3) at the target loci [7,8] (Figure 1). These initial studies, along with a genetic screen
+which identiﬁed the HUSH member, TASOR (c3orf63), as an antiviral factor [9], showed a role
+for HUSH in silencing HIV-1, the most clinically important lentivirus. By silencing a subset of
+HIV integrations, HUSH contributes to the establishment and maintenance of latent HIV
+[7,10,11], which is transcriptionally silenced but replication-competent, and therefore has the potential to reactivate. A wider role for HUSH in preserving genome integrity emerged when HUSH
+was found to silence endogenous L1 retrotransposons [12,13]. A genome-wide screen revealed
+that HUSH, MORC2, and SETDB1 are also critical components for restriction of L1
+retrotransposition in human somatic cells [12]. HUSH/MORC2 represses endogenous L1 transcription and promotes H3K9me3 deposition at the L1 loci [12,13]. Together these results
+show that HUSH restricts retroelements whether they attack the genome from outside the cell
+(retroviruses) or from within (retrotransposons). Importantly, only a subset of L1s are silenced
+by HUSH: full-length, evolutionarily young, and transcriptionally active L1s [12,13], precisely the
+252
+
+Trends in Genetics, April 2023, Vol. 39, No. 4
+
+*Correspondence:
+mms67@cam.ac.uk (M. Seczynska) and
+pjl30@cam.ac.uk (P.J. Lehner).
+@
+Twitter: @seczynska
+
+Trends in Genetics
+OPEN ACCESS
+
+Box 2. The control of transposable elements.
+
+Glossary
+
+To silence and control transposable elements, eukaryotes rely on an array of complex, interconnected epigenetic mechanisms: small RNAs, KRAB-ZFPs, DNA methylation, histone modiﬁcations, and RNA modiﬁcations [5]. A specialized genome
+defense pathway (the piRNA pathway) controls active transposons in the germline. P-element-induced Wimpy testis (PIWI)interacting RNAs (piRNAs) guide PIWI proteins to cleave complementary transposon transcripts and promote repressive
+chromatin at the transposon loci [69]. The function of the piRNA pathway in genome defense is clearly conserved, but the
+silencing machinery and mechanisms differ among different species [58]. piRNAs are often derived from piRNA clusters, genomic loci enriched in transposon-derived sequences. The piRNA pathway thus relies on the memory of past transposon
+invasions to provide adaptive, sequence-based control of transposon activity with conceptual similarities to the adaptive immune system. The piRNA pathway recognizes the threat, stimulates and ampliﬁes a response (through so-called ping-pong
+cycle ampliﬁcation of piRNAs), and establishes a memory of the encounter to neutralize similar threats in the future (through
+piRNA cluster formation). In Drosophila melanogaster, maternal deposition of piRNAs and PIWI proteins in oocytes provides
+its progeny with some innate immunity to transposons [79], but this mechanism is absent from mammals. It is unclear
+whether the piRNA pathway can provide innate immunity to transposons in mammals and respond to completely novel genetic invaders. A recent study on retroviruses actively invading koalas shows that unspliced transcripts from new retroviral
+insertions are directly processed into piRNAs, illustrating a mechanism by which the piRNA pathway can respond to a
+completely novel invader [80], but whether this can be extrapolated to other genome-invading elements remains unknown.
+A large family of sequence-speciﬁc DNA-binding proteins KRAB-ZFPs help the host to co-opt mobile genetic elements for its
+beneﬁt. Through interaction with tripartite motif containing 28 (TRIM28), KRAB-ZFPs recruit the Su(var)3-9, Enhancer-of-zeste
+and Trithorax (SET) domain bifurcated histone lysine methyltransferase 1 (SETDB1) to deposit histone 3 lysine 9 trimethylation
+(H3K9me3) at target loci. By binding and controlling transposon-derived regulatory sequences, KRAB-ZFPs orchestrate cellspeciﬁc gene regulation in developing and adult tissues and this regulation is an important driver of primate evolution. KRAB-ZFPs
+emerged in the last common ancestor of the coelacanth, lungﬁsh, and tetrapods [67], and have rapidly expanded and diversiﬁed in
+response to invading waves of transposons. The current model of interactions between KRAB-ZFPs and transposons integrates
+both the arms race and domestication models: KRAB-ZFPs and transposons compete with each other, with the KRAB-ZFP
+pathway continuously trying to suppress mutating transposons through the evolution of novel KRAB-ZFP genes. Over time,
+transposons accumulate mutations and lose their transcriptional potential. Some may undergo positive selection and become ﬁxed
+in the genome because they fulﬁl beneﬁcial functions to the host. KRAB-ZFPs themselves might participate in this domestication by
+evolving additional functions to repress transposon transcription. The KRAB-ZFP pathway is an elegant example of coadaptation between host genome and its mobile DNA content, but because it depends on new gene evolution and
+transposon mutations, it is relatively slow. This gives young, active transposons the opportunity to cause major damage until
+such adaptation occurs. How this threat is alleviated, in particular in somatic cells where the piRNA pathway is absent, was
+unclear. The discovery of the HUSH complex and the ﬁnding that it provides immediate protection by silencing diverse
+invading DNAs places HUSH at the forefront of genome defense and may provide the answer to this question.
+
+elements that pose the greatest threat to genome integrity, because they remain mobile and/or
+affect transcription of neighboring genes. Silencing of such L1 elements is highly speciﬁc, as
+L1s constitute the majority of the HUSH-repressed endogenous loci. Only a small subset of
+other endogenous loci (<200) harbor HUSH-mediated H3K9me3, the majority of which are 3′
+long exons of transcribed Krüppel-associated box domain (KRAB) KRAB-containing
+zinc-finger protein (KRAB-ZFP) genes [7,8,12–15]. The HUSH complex therefore appeared
+
+Box 3. Discovery of the HUSH complex
+The HUSH complex was discovered by the Lehner laboratory through a forward genetic screen for the regulators of positioneffect variegation in human cells. Position-effect variegation refers to the differences in expression of an identical gene as a
+result of its position at different genomic sites, usually due to epigenetic silencing of the gene [81]. The Lehner laboratory utilized
+insertional mutagenesis to perform a genetic screen in the haploid human KBM7 cell line for genes required for epigenetic
+silencing of a subset of lentiviral integrations [7]. Following transduction with a lentiviral green ﬂuorescent protein (GFP) reporter,
+the majority of cells displayed high GFP expression (GFPbright population). However, as a result of reporter integration in the
+proximity of H3K9me3-rich heterochromatin, a subset of cells showed low GFP expression (GFPdim population). By isolating
+mutant cells which failed to maintain silencing of the GFP reporter following insertional mutagenesis (i.e., a population that
+became GFPbright), epigenetic factors essential for position-mediated epigenetic silencing were identiﬁed. These included
+proteins encoded by SETDB1, a histone lysine methyltransferase, and three less well-characterized factors FAM208A/
+TASOR, MPHOSPH8 [encoding M-phase phosphoprotein 8 (MPP8)], and PPHLN1 (encoding periphilin). Subsequent
+proteomic and biochemical analyses revealed that TASOR, MPP8, and periphilin form a stable heterotrimeric complex,
+which the Lehner laboratory named HUSH (human silencing hub). The discovery of the HUSH complex, along with
+the subsequent identiﬁcation of MORC2 as an essential HUSH-recruited chromatin remodeler [8,17], and ATF7IP as
+an essential SETDB1 chaperone [21,22], deﬁned a novel epigenetic silencing pathway in human cells.
+
+Acute myeloid leukemia (AML): a
+malignant cancer of the bone marrow in
+which hematopoietic precursors are
+arrested in an early stage of development;
+the most common type of acute leukemia
+in adults.
+Adeno-associated virus (AAV): a
+nonenveloped single-stranded DNA virus
+that can be engineered to deliver DNA to
+target cells; it persists as episomes
+(nonintegrated DNAs) in the nucleus of
+transduced cells.
+Arms race: the conﬂict between two
+competing parties; here, transposons and
+host machineries that control them,
+continuously imposing selective pressures
+on each other.
+Chromodomain: a structural protein
+domain of approximately 40–50 amino
+acid residues, commonly found in proteins
+associated with chromatin, which
+recognizes methylation marks on
+histones.
+CNOT1 RNA degradation pathway:
+CNOT1 is a scaffolding component of
+CCR4-NOT1, one of the major cellular
+mRNA deadenylases linked to mRNA
+degradation.
+Co-option: the process through which
+transposable elements are selected for a
+variety of novel functions that may provide
+an adaptive beneﬁt to their hosts.
+Domestication: the process through
+which transposons gradually become
+integrated into the host’s regulatory
+networks (closely related to co-option).
+HIV-1: a lentivirus that infects human
+immune cells; a cause of AIDS.
+Immune checkpoint blockade (ICB):
+a type of cancer immunotherapy that
+focuses on the termination of immune
+responses by inhibiting immune
+suppressor molecules.
+KRAB-containing zinc-finger
+proteins (KRAB-ZFPs): a family of
+proteins with an N-terminal KRAB domain
+and a C-terminal C2H2 zinc ﬁnger array.
+Krüppel-associated box domain
+(KRAB): protein domain associated
+primarily with potent transcriptional
+repression via the association with the
+corepressor KAP1.
+Lentiviral: derived from lentiviruses, a
+type of retroviruses that can infect both
+dividing and nondividing cells; lentiviral
+vectors are derived from the HIV-1 and
+have been used extensively as gene
+transfer tools.
+Lentivirus: a type of single-stranded
+RNA virus that reverse transcribes its
+RNA genome and integrates the cDNA
+
+Trends in Genetics, April 2023, Vol. 39, No. 4
+
+253
+
+Trends in Genetics
+OPEN ACCESS
+
+(A)
+HUSH complex
+TASOR
+
+ATF7IP SETDB1
+H3K9me3
+
+Periphilin
+MPP8
+
+Nascent
+transcript
+
+Me Me
+Me
+
+Me Me
+Me
+
+Me Me
+Me
+
+RNAP II
+
+MORC2
+Retroelement
+
+(B)
+TASOR
+
+PARP
+
+(inactive)
+
+SPOC DomI
+MPP8 binding
+
+MPP8
+
+CD
+
+S-rich
+
+Periphilin binding
+(1014-1095 aa)
+
+860 aa
+
+H3K9me3 binding
+ATF7IP/SETDB1 interaction
+
+Periphilin
+
+ankyrin repeats
+
+helix 374 aa
+
+HUSH complex
+
+TASOR binding (297-374 aa)
+homodimerization
+
+SETDB1
+
+MBD
+
+PreSET SET
+
+Tudor domains
+
+MORC2
+
+GHKL
+
+1670 aa
+
+DomII PIN
+
+CC1 trans
+CW CC2
+ATPase
+
+SET 1291 aa
+PostSET
+
+CC3 1032 aa
+TCD
+
+TASOR & MPP8 binding
+
+HUSH effectors
+Trends in Genetics
+
+Figure 1. Human silencing hub (HUSH) – a complex of transcription activation suppressor (TASOR), M-phase
+phosphoprotein 8 (MPP8), and periphilin – is an epigenetic repressor which promotes deposition of histone 3
+lysine 9 trimethylation (H3K9me3). (A) Schematic representation of the mechanism of HUSH recruitment and function. HUSH
+is recruited to transcribed target loci through periphilin binding to nascent RNA. MPP8 then recruits Su(var)3-9, Enhancer-of-zeste
+and Trithorax (SET) domain bifurcated histone lysine methyltransferase 1 (SETDB1) through an interaction with SETDB1 nuclear
+chaperone activating transcription factor 7 interacting protein (ATF7IP); SETDB1 deposits H3K9me3, which is in turn bound by
+MPP8, maintaining HUSH at the locus. HUSH also recruits microrchidia CW-type zinc ﬁnger 2 (MORC2), an ATP-dependent
+chromatin remodeler. (B) Schematic representation of the domain structures of the core HUSH complex subunits: TASOR, MPP8,
+periphilin, and HUSH effector proteins SETDB1 and MORC2. Abbreviations: CC, coiled-coil domain; CD, chromodomain; CW,
+CW-type zinc ﬁnger domain; DomI, domain I; DomII, domain II; GHKL, gyrase, histidine kinase, and MutL domain; helix, helices;
+MBD, methyl-binding domain; Me, methyl; PARP, poly(ADP-ribose) polymerase domain; PIN, PiIT N terminus; RNAP II, RNA
+polymerase II; S-rich, serine-rich domain; SPOC, Spen paralog and ortholog C-terminal domain; TCD, Tudor-chromodomain.
+
+as cellular machinery which controlled L1 activity and was speciﬁcally ‘programmed’ to target L1
+elements for repression. However, a recent study showed that HUSH function extends well beyond control of L1s. To understand how HUSH recognizes incoming L1s, we mimicked L1
+254
+
+Trends in Genetics, April 2023, Vol. 39, No. 4
+
+into the host genome. A lentivirus (unlike
+a retrovirus) can infect both dividing and
+nondividing cells.
+Long interspersed element-1
+(LINE-1, L1): an autonomous, non-LTR
+retrotransposon which constitutes ~17%
+of the human genome. The only mobile
+transposon in humans, it replicates
+through an RNA intermediate and
+encodes two proteins: ORF1p, which has
+nonsequence-speciﬁc RNA-binding
+activity, and ORF2p, an endonuclease
+and reverse transcriptase.
+Mouse embryonic stem cells
+(mESCs): cells derived from inner cell
+mass of the developing blastocyst;
+mESCs are able to self-renew indeﬁnitely
+in vitro while preserving ‘naive’
+pluripotency (the developmental potential
+to reconstitute all embryonic lineages).
+Murine leukemia virus (MLV): the
+prototypical gammaretrovirus and one of
+the simplest retroviruses; causes leukemia
+in mice.
+Noncanonical HUSH silencing
+pathway: target silencing through
+HUSH recruitment via DNA-binding
+protein NP220/ZNF638 and potentially
+other ZFPs.
+Nuclear exosome targeting (NEXT)
+complex: required for exosomal
+degradation of many nuclear RNA
+substrates, especially newly synthesized
+RNA.
+Pathogen-associated molecular
+pattern (PAMP): small molecular
+motifs conserved within a class of
+microbes; recognized by host pattern
+recognition receptors.
+P-element-induced Wimpy testis
+(PIWI)-interacting RNAs (piRNAs):
+small noncoding RNAs that associate with
+PIWI proteins to mediate transposon
+silencing in a sequence-speciﬁc manner at
+both post-transcriptional and
+transcriptional levels; expressed
+abundantly in germline cells.
+Position-effect variegation: refers to
+the differences in expression observed
+when an identical gene is positioned at
+different sites in the genome. The
+expression level of such a gene can vary
+widely depending on the speciﬁc site of
+integration, usually with integration into
+actively transcribed chromatin resulting
+in strong expression, and integration into
+repressive chromatin resulting in
+transcriptional repression.
+Processed pseudogenes:
+nonfunctional copies of mRNAs that have
+been reverse transcribed into DNA and
+inserted into the genome using the
+enzymatic activities of active L1 elements.
+
+Trends in Genetics
+OPEN ACCESS
+
+invasion with reporter transgenes [15]. This led to the unexpected ﬁnding that, in addition to L1s,
+HUSH is able to target a remarkably broad range of incoming DNAs for repression, independently
+of whether and where they integrate in the genome, and importantly, even in the absence of previous exposure to such DNAs. The key features which confer susceptibility to HUSH are: (i) lack
+of cellular introns, (ii) transgene length >1 kb (excluding ﬂuorescent marker), and (iii) high adenine
+content in the sense strand (Figure 2A and Box 4). Given that the presence of cellular introns
+protected transgenes against HUSH-mediated repression, we proposed that long, intronless
+cDNA is the ‘pathogen-derived’ molecular ‘pattern’ recognized by the HUSH complex
+(Figure 2B). A lack of introns is an intrinsic feature of retroelements, including retroviruses and L1
+retrotransposons, which replicate via an RNA intermediate; that is, are reverse-transcribed to
+cDNA, and integrate into the host genome. In contrast, most mammalian genes have a classical
+exon–intron structure, with the average intron (6000 bp) around 40 times larger than the average
+exon (150 bp) [16]. This recognition of long, intronless cDNA enables HUSH to promiscuously repress RNA-derived invading mobile elements while avoiding the inappropriate repression of introncontaining host genes. These ﬁndings revealed the existence of a genome surveillance system able
+to distinguish ‘nonself’ from ‘self’ DNA, with important implications for genome regulation and
+evolution.
+
+Molecular basis for HUSH function
+H3K9me3 ‘read & write’
+The HUSH complex of TASOR, MPP8, and periphilin localizes to its target loci where it recruits
+two effectors: SETDB1 promotes H3K9me3 deposition while MORC2 is an ATP-dependent
+chromatin remodeler essential for transcriptional repression [7,8,12,17]. The molecular mechanism of HUSH function remains incompletely understood. HUSH has two main activities:
+(i) coupling between ‘reading’ and ‘writing’ of H3K9me3 [7,11], and (ii) target transcript binding
+[15,18]. An interaction between MPP8 and SETDB1 regulates both H3K9me3 ‘reading’ and ‘writing’ [7]. The MPP8 chromodomain binds both H3K9me3 [19] and methylated activating transcription factor 7 interacting protein (ATF7IP) [20], the nuclear chaperone of the SETDB1
+methyltransferase [21,22]. By recognizing existing H3K9me3, MPP8 recruits ATF7IP-SETDB1
+to the locus to promote further H3K9me3 deposition. However, this coupling between the
+MPP8 ‘read’ and SETDB1 ‘write’ functions is insufﬁcient for repression, as TASOR, periphilin,
+
+(A)
+
+Retrocopies: collective term for copies
+of mRNAs that have been reverse
+transcribed into DNA and inserted into the
+genome using the enzymatic activities of
+active L1 elements; can be further divided
+into protein-coding (retrogenes, proteincoding intronless genes) or nonfunctional
+genes (processed pseudogenes).
+Retroelements: a collective term for all
+elements that are transcribed into RNA,
+reverse-transcribed into DNA, and then
+inserted into a new site in the genome;
+they include retroviruses and lentiviruses,
+retrotransposons, and host genes created
+through integration of reverse-transcribed
+host mRNA into the genome.
+Retrotransposon: a transposon that
+reverse transcribes its RNA genome and
+integrates it into the host genome; it
+requires a reverse transcriptase for its
+replication.
+RIG-1-like receptor: retinoic acidinducible gene-1-like receptor, a type of
+intracellular pattern recognition receptor
+involved in the recognition of viruses by the
+innate immune system; binds to short
+(<200 bp) single- or double-stranded
+RNA.
+
+(B)
+HUSH
+complex
+
+TASOR
+
+Periphilin
+
+TASOR
+
+Transcriptional
+repression
+
+MPP8
+
+AAV
+Unintegrated retrovirus
+
+Episomal transgene
+
+Protection from HUSH
+
+X
+
+Transcriptional repression
+
+Periphilin
+Binding
+
+MPP8
+No binding
+
+Transcript
+LINE-1 retrotransposon
+
+Retrovirus
+
+ZFP gene
+
+Retrocopy
+
+(3’ exon)
+
+(intronless
+gene copy)
+
+Long exon
+
+Transgenes
+(intronless, adenine-rich,
+>1.5kb)
+
+L1 & transgene
++ intron
+
+Intronless Intron-containing
+Endogenous loci
+
+Trends in Genetics
+
+Figure 2. Human silencing hub (HUSH) targets a diverse set of elements for transcriptional repression through intron-dependent recognition. (A) HUSH
+represses integrated long interspersed element-1 (L1) transposons, retroviruses, zinc ﬁnger protein (ZFP) genes, retrocopies, unusually long exons, and diverse long,
+adenine-rich transgenes as well as episomal transgenes and – via a ‘noncanonical HUSH pathway’ – unintegrated retroviruses and adeno-associated viruses (AAVs).
+(B) Intron insertion protects HUSH targets against repression (left). Periphilin speciﬁcally binds transcripts from intronless genomic loci (right). Abbreviations: MPP8,
+M-phase phosphoprotein 8; TASOR, transcription activation suppressor.
+
+Trends in Genetics, April 2023, Vol. 39, No. 4
+
+255
+
+Trends in Genetics
+OPEN ACCESS
+
+Box 4. HUSH–retroelement arms race
+HUSH preferentially targets invading elements with high adenine (A) content in the sense strand [15]. Structurally poor, A-rich
+RNAs were associated with enhanced viral cDNA synthesis [82], and many reverse-transcribing elements (including HIV and
+L1 retrotransposon) have an unusual A-rich bias in the sense strand [55,83,84]. High adenine content may be inherently
+connected with reverse transcription, and HUSH speciﬁcity for A-rich bias could therefore allow a more selective targeting
+of retroviruses and retrotransposons for which reverse transcription is an integral part of their life cycle. Cellular mRNA from
+host genes is also occasionally reverse transcribed to cDNA and integrated into a new genomic location via the activity of L1
+proteins, creating intronless genomic loci (Box 5) [85], a subset of which are also HUSH-repressed. However, reverse transcription is not a natural part of the cellular mRNA life cycle, and sequences of host genes differ in their nucleotide composition in comparison to reverse-transcribed elements. This additional layer of HUSH speciﬁcity through recognition of A-rich
+targets may thus represent a compromise between conﬂicting demands of silencing ‘nonself’ (invading DNAs) and tolerating
+‘self’ (intronless genes) that is critical in limiting autoimmunity.
+Long, intronless cDNA is an important intermediate of the retroelement life cycle, and is necessary for integration into the host
+genome. Retroelements therefore have limited ability to bypass HUSH restriction. Similarly, if A-richness of the retroelement
+genome is indeed important for efﬁcient reverse transcription, retroelements would have difﬁculty reducing the A-rich bias in
+their genome to escape HUSH. Given that intron sequences, not splicing per se, protect against HUSH [15], retroelements
+would need to maintain long, noncoding intron sequences in their genome, but are under selective pressure for a compact
+genome. Complex, primate retroviruses, despite undergoing splicing, do not have noncoding intron sequences similar to
+those present in host cellular genes, as their introns originate from overlapping open reading frames and are coding. Consequently, primate retroviruses are susceptible to HUSH restriction and encode Vpx/Vpr effectors to degrade HUSH
+[66,86,87]. Endogenous retroelements do not encode auxiliary proteins and are unable to evade HUSH. In the ongoing evolutionary arms race, the recognition of long, intronless, A-rich cDNA by HUSH is thus, at present, a dead end for
+retroelements.
+
+and MPP8 protein domains with functions other than H3K9me3 binding are all essential for
+HUSH-mediated silencing [14,23]. Furthermore, the ‘read–write’ mechanism is not absolutely essential for repression, as neither the MPP8 chromodomain nor ATF7IP methylation is required for
+silencing. Indeed, an MPP8 chromodomain-deﬁcient mutant, which cannot bind H3K9me3, and
+an ATF7IP methylation-site mutant, can both still repress their target [7,20,23]. Nevertheless, the
+MPP8 chromodomain (and thus the ‘read–write’ mechanism) contributes to HUSH chromatin localization [7] and is required for stable HUSH occupancy at its target loci [23].
+The role of periphilin and RNA binding in maintenance of HUSH repression
+Periphilin is an RNA-binding protein that speciﬁcally binds transcripts from HUSH target loci [15]
+and therefore makes a critical contribution to HUSH chromatin localization [7]. Periphilin binding
+to its target RNA probably stabilizes HUSH at the target locus, independently of the binding of
+the MPP8 chromodomain to H3K9me3 [7]. Supporting this, periphilin–RNA binding is also observed in SETDB1-deﬁcient cells, where no H3K9me3 is deposited at the target locus [15]. Moreover, increasing target transcription enhances HUSH binding [12], suggesting that RNA helps to
+maintain HUSH at the locus. HUSH targets only transcribed loci [12,14], and target transcription
+is required for the maintenance of H3K9me3 at the locus [15], most likely because RNA binding
+by periphilin is required for H3K9me3 deposition. However, other reasons cannot be excluded
+(e.g., a requirement for elongating RNA Pol II at the locus). Identifying a periphilin mutant deﬁcient
+in RNA binding would thus allow testing whether periphilin RNA binding is essential to maintain
+repression and facilitate the mechanistic interrogation of HUSH function. Although periphilin
+does not appear to contain any classical RNA-recognition motifs, its N terminus is essential for
+repression, mediates self-association, and was suggested to bind RNA [24]. Whether periphilin
+self-association is facilitated by RNA binding or RNA binding and self-association represent independent functions requires further investigation.
+Periphilin and RNA binding in target recognition and initiation of repression
+Recognition of nascent transcripts is a key step in the initiation of HUSH repression. Incoming L1
+fails to accumulate H3K9me3 if not transcribed [15], suggesting that target RNA is needed for the
+256
+
+Trends in Genetics, April 2023, Vol. 39, No. 4
+
+Trends in Genetics
+OPEN ACCESS
+
+establishment of repression. Moreover, periphilin binds target RNA even in the absence of
+H3K9me3 and detectable HUSH at the locus, supporting the model in which nascent RNA, via
+periphilin, recruits HUSH to target loci [15] which subsequently recruits SETDB1 to initiate
+H3K9me3 deposition [7]. Importantly, transcriptome-wide analysis of periphilin-bound RNAs revealed that periphilin binding to RNA is speciﬁc. Periphilin binds transcripts from L1s, KRAB–ZFP
+genes and HUSH-sensitive loci, with a preference for full-length over truncated L1s as well as for
+evolutionarily younger L1s [15]. The transcriptome-wide analysis also showed a remarkable
+periphilin speciﬁcity towards transcripts derived from intronless genomic loci, that is, ‘self’
+genes that resemble ‘nonself’ intronless invading elements and, in many cases, are products of
+retrotransposition of cellular mRNA (Box 5). Periphilin–RNA binding therefore appears to specify
+loci for repression and enables HUSH to discriminate intronless invading elements from introncontaining host genes (Figure 2B). The basis of such speciﬁcity remains unclear, also whether target recognition relies solely on periphilin–RNA recognition or whether an upstream event triggers
+periphilin–RNA association (e.g., related to transcription kinetics or ﬂexibility of the nascent transcript). Notably, this RNA-mediated HUSH recruitment appears to be a common mode for many
+HUSH targets (L1s, KRAB-ZFP genes, transgenes, cellular genes) (Figure 3).
+An alternative means to recruit HUSH is through the sequence-speciﬁc DNA-binding protein
+nuclear protein 220 (NP220) as illustrated for unintegrated murine leukemia virus (MLV) [25]
+and recombinant adeno-associated virus (AAV) [26], that we refer to as the noncanonical
+
+Box 5. Retrotransposition of cellular mRNAs by L1 creates new intronless genomic loci
+L1s can also mediate retrotransposition of cellular mRNAs [85]. This occurs when L1 proteins (ORF1p and ORF2p) bind to
+cellular rather than L1 mRNA. Because ORF1p binds RNA nonspeciﬁcally [88] and ORF2p binds the poly(A) tail of mRNA
+[89], these L1 proteins can associate with any cellular polyadenylated transcript and mediate its reverse transcription and
+integration into a new genomic location. Such gene duplication via an RNA intermediate has produced thousands of gene
+copies in mammals [90,91]. In general, retrotransposition does not duplicate upstream regulatory sequences, and thus
+retrocopies usually lack promoter sequences and were long regarded as ‘dead-on-arrival’ (nontranscribed and nonfunctional genes) [92]. However, large-scale studies revealed that transcribed retrocopies are widespread, with more than a
+thousand retrocopies transcribed, many with intact coding sequence [65,93]. Indeed, there are at least 120 functional protein-coding retrocopies in our genome, with at least one functional retrocopy emerging every million years in the human
+lineage over the past ~65 million years [64,65,94]. Overall, genes generated through retrotransposition can be classiﬁed
+as processed pseudogenes (retrocopies with disrupted coding frames) and retrogenes (protein-coding retrocopies;
+intronless genes).
+To become functional, a newly retrotransposed gene needs to be expressed and thus needs to acquire a core promoter
+along with other regulatory elements, such as enhancers. A straightforward way for a retrocopy to obtain transcription potential is to ‘hitch-hike’ on the regulatory elements of other genes [95]. Indeed, transcribed retrocopies are found close to
+other genes, likely because open chromatin and/or regulatory elements of nearby genes facilitate retrocopy transcription
+[90]. Many retrocopies are located within introns of transcribed host genes and are transcribed as fusion transcripts [65]. A
+retrocopy may be inserted downstream of a pre-existing promoter or may acquire a new distant promoter, for example, by
+the acquisition of a 5′ exon–intron structure from the vicinity of a retrogene insertion site [95,96]. Finally, a retrocopy may
+also obtain a promoter from its parent gene if its transcript harbors a cryptic promoter or if the parental gene transcript
+is transcribed from the transcription start site upstream of the canonical transcriptional start site [97].
+What happens to transcribed, retrotransposed copies? Some evolve neutrally because they do not encode an entire protein, or encode an unnecessary protein, and thus eventually accumulate mutations and become pseudogenes. Other
+retrocopies may encode a protein that is beneﬁcial to the organism, and become ﬁxed in the genome as retrogenes. Newly
+emerged retrogenes sometimes evolve under positive selection to acquire a new function. This is possible because gene
+duplication results in two copies of a gene: one can maintain its original function while the other acquires a new function.
+For instance, new gene functions can arise through changes in the localization of encoded proteins in the cell [98,99] or
+through acquisition of tissue-speciﬁc expression. Indeed, the majority of retrogenes are speciﬁcally expressed in the testis,
+whereas their parental genes are ubiquitously expressed [64,65,91]. As a consequence, many retrogenes have evolved
+new functions in the testes [64,90]. During primate evolution new retrogenes have been recruited to enhance male germline function and contributed signiﬁcantly to organismal evolution. The activity of L1 retrotransposons has therefore been a
+driving force in genetic innovation during human evolution.
+
+Trends in Genetics, April 2023, Vol. 39, No. 4
+
+257
+
+Trends in Genetics
+OPEN ACCESS
+
+RNA-mediated HUSH recruitment
+
+DNA-mediated HUSH recruitment
+‘Noncanonical HUSH pathway’
+
+TASOR
+Periphilin
+
+Transcript
+
+TASOR
+
+MPP8
+
+MPP8 CD
+dispensable
+
+Me Me
+Me
+
+L1 transposon
+Retrovirus
+Retrocopy
+Transgene
+ZFP gene
+
+Periphilin
+
+MPP8
+
+NP220
+
+MPP8 CD
+required
+
+Me Me
+Me
+
+Unintegrated retroviral DNA
+AAV
+
+Trends in Genetics
+
+Figure 3. Two mechanisms of human silencing hub (HUSH) recruitment to the target loci. RNA-mediated HUSH
+recruitment is a common recruitment mode for the majority of targets, but HUSH can also be recruited to a target locus via
+DNA-binding protein nuclear protein 220 (NP220). Unlike RNA-mediated recruitment, the ‘noncanonical HUSH pathway’ requires
+MPP8 chromodomain (CD) for repression. Abbreviations: AAV, adeno-associated virus; L1 transposon, long interspersed
+element-1; Me, methyl; MPP8, M-phase phosphoprotein 8; TASOR, transcription activation suppressor; ZFP, zinc ﬁnger protein.
+
+HUSH silencing pathway (Figure 3). Noncanonical HUSH-mediated silencing of unintegrated
+MLV differs mechanistically from silencing of other targets, as it requires both the DNA-binding
+activity of NP220 as well as a functional MPP8 chromodomain [25], a critical difference from L1
+or transgene silencing [7,23]. Whether other DNA-binding proteins recruit HUSH through this
+noncanonical pathway is unknown.
+HUSH repression acts as a transcription-responsive rheostat
+By binding its target RNA, HUSH can respond to increased transcription from its repressed locus if
+H3K9me3 levels decline. This may occur during cell replication when unmodiﬁed, newly synthesized histones assemble on replicated chromatin, resulting in an approximate twofold dilution of
+H3K9me3 levels and concomitant increase in transcription [27]. Transcription-induced recruitment
+of HUSH to newly replicated chromatin would therefore enable inheritance of the repressed state
+following DNA replication, consistent with transcription being required for the maintenance of
+HUSH-mediated H3K9me3 at the target locus [15], and similar to transcription-coupled heterochromatin formation and propagation in ﬁssion yeast [28–30]. HUSH-mediated repression thus appears to function as an epigenetic rheostat: increased transcription from the target locus increases
+the amount of target RNA, leading to further RNA binding by periphilin, increased occupancy of
+HUSH components at the locus, SETDB1 and MORC2 recruitment, which in turn inhibits transcription. In this model, the maintenance of HUSH repression is mechanistically identical to de novo establishment: following each cell division, there is a re-establishment of repression driven by
+increased target transcription, in a way similar to what happens when a transcribed target is encountered by the cell for the very ﬁrst time. This continual sensing of transcription and target
+RNA explains how HUSH represses L1s in euchromatic environments, often within introns of actively transcribed genes, and why L1 ‘fossils’ (i.e., evolutionarily old L1s, which have lost transcriptional potential) are ignored by HUSH and are no longer H3K9me3-modiﬁed [12–14].
+258
+
+Trends in Genetics, April 2023, Vol. 39, No. 4
+
+Trends in Genetics
+OPEN ACCESS
+
+Intron-mediated protection against HUSH
+Introns protect against HUSH repression [15]. Surprisingly, this protection is independent of intron
+splicing or spliceosome recruitment to the transcript, as shown by unspliced, mutant introns still
+protecting transgenes against HUSH, and effectively spliced nonintronic sequences being unable
+to counteract HUSH [15]. How introns protect against HUSH must thus relate to some intrinsic properties of introns. Given the complex network of RNA-binding proteins involved in exon–intron recognition [31], intronic sequences may counteract HUSH by recruiting proteins(s) that actively prevent
+periphilin binding to the transcript, a mechanism consistent with the observation that intron insertion
+into HUSH-sensitive transgene partially decreases periphilin binding to the reporter transcript [15]. An
+alternative mechanism of protection may be through intronic sequences modulating RNA polymerase elongation rates: intronic regions show decreased nucleosome occupancy as compared to
+exons [32–34], a feature correlating with faster elongation rates [32,33,35]. Slow elongation through
+long exons may trigger HUSH recruitment and be counteracted by the decreased nucleosome density and increased elongation over introns, a mechanism consistent with HUSH-mediated deposition
+of H3K9me3 over unusually long exons [14,15]. Understanding how introns protect against HUSH
+repression is an important outstanding question and is likely to provide a crucial insight into what triggers HUSH recruitment to the target locus.
+The molecular mechanism underlying HUSH repression
+Transcription-induced HUSH recruitment leads to H3K9me3 deposition at the target loci. In previous
+models, H3K9me3 deposition, together with MORC2-dependent compaction, were considered the
+HUSH effector functions required for repression. Moreover, DNA methylation could also contribute to
+the HUSH-mediated repression as MPP8 was shown to recruit DNA methyltransferase 3A
+(DNMT3A) to HUSH target loci [19,36]. However, recent work has shown that HUSH-mediated L1
+repression can be maintained even in the absence of H3K9me3 and DNA methylation at the locus
+[23]. In mouse embryonic stem cells (mESCs), where HUSH is critical for repression of endogenous L1 loci in the absence of DNA methylation, chromodomain-deﬁcient MPP8 maintains L1 repression, despite its inability to bind SETDB1 and promote H3K9me3 deposition. This implies that,
+with the help of MORC2 to compact chromatin, HUSH represses target expression directly, or
+uses a different effector function.
+The RNA degradation machinery nuclear exosome targeting (NEXT) complex cooperates with
+HUSH to restrict transposon expression [37], suggesting that HUSH-mediated repression also involves post-transcriptional RNA degradation. NEXT is composed of zinc ﬁnger CCHC-type containing 8 (ZCCHC8), RNA-binding protein 7 (RBM7), and RNA helicase MTR4 (MTREX), and is recruited
+to HUSH-repressed transposon loci through the high-afﬁnity interaction between MPP8 and
+ZCCHC8, where it guides exonucleolytic decay of prematurely terminated, nonpolyadenylated transcripts [37]. However, in contrast to NEXT, HUSH limits full-length, polyadenylated transposon transcripts [37]. HUSH and NEXT are thus independent but connected pathways acting on the same
+transposon loci: HUSH is responsible for transcriptional silencing, and NEXT clears residual, nonfunctional transcripts from chromatin, produced as a consequence of the repressive environment created
+by HUSH. Such a collaboration between transcriptional and post-transcriptional mechanisms is a
+common theme, as illustrated by the cooperation of RNA-induced transcriptional silencing (RITS)
+and Mtl1-Red1 core (MTREC) complexes in ﬁssion yeast [38,39] and rixosome with RITS (in ﬁssion
+yeast) or Polycomb (in human cells) [40,41]. Similarly, HUSH cooperates with the CNOT1 RNA degradation pathway to repress latent HIV-1 [18]. These two pathways also work independently, as
+CNOT1 depletion in HUSH-deﬁcient cells further increases HIV-1 de-repression [18].
+Whilst HUSH recruits NEXT to transposon loci, how much NEXT contributes to the overall HUSHmediated repression is unclear. MPP8 mutants unable to bind ZCCHC8 but retaining HUSH
+
+Trends in Genetics, April 2023, Vol. 39, No. 4
+
+259
+
+Trends in Genetics
+OPEN ACCESS
+
+function would allow testing the contribution of NEXT to transposon repression. Similar separation of function will help probe the basis of HUSH repression. As discussed earlier,
+chromodomain-deﬁcient MPP8 maintains repression but does not promote H3K9me3 as it cannot bind SETDB1 [23]. This mutant allows the testing of how HUSH itself affects transcription and
+RNA stability without the additional effects of H3K9me3. Understanding the molecular mechanism underlying HUSH repression is an important outstanding question.
+If H3K9me3 is not absolutely required for repression, what is the function of H3K9me3 at the
+locus? H3K9me3 is likely to enhance the afﬁnity of HUSH for chromatin and reinforce repression.
+Multivalent binding to H3K9me3 and the target transcript could accelerate the association of
+HUSH with chromatin and stably anchor HUSH at the locus. Furthermore, by decreasing the
+Pol II elongation rate over the HUSH target [12,42], H3K9me3 will retain the nascent transcript
+on chromatin and facilitate HUSH–RNA binding. HUSH targets include L1s, as well as gene family
+clusters such as rapidly evolving KRAB-ZFP genes and duplicated genes/pseudogenes, all of
+which are prone to ectopic recombination due to their highly homologous sequences.
+H3K9me3 may therefore protect HUSH-repressed transposons and genes from illegitimate recombination [43] and help to maintain genome integrity.
+
+The role of HUSH-mediated repression
+The physiological signiﬁcance of HUSH function
+All three HUSH proteins as well as SETDB1 are essential during development. TASOR-deﬁcient
+mice are embryonically lethal before completion of gastrulation [44]. Periphilin homozygous
+deﬁciency is lethal early in embryogenesis, and heterozygous deﬁciency is compensated by the
+increase in expression from the wild-type allele [45]. SETDB1 is required for germline development [46], and both SETDB1 and MPP8 are essential for mouse ESCs' pluripotency and selfrenewal [46–48], with SETDB1 knockout being lethal at the peri-implantation stage at 3.5 days
+post coitum [49]. MPP8 knockout is also not well tolerated, though the severity of the phenotype
+remains unclear. The Xu laboratory showed that MPP8-homozygous knockout mice are viable
+but born at a lower ratio and with signiﬁcantly reduced body size and weight [50], whilst the
+Penninger laboratory reported that MPP8 knockout is embryonically lethal before embryonic
+day 11.5 [51]. Such severe phenotypes of HUSH/SETDB1 deﬁciency highlight an important
+physiological role for HUSH. This seems particularly critical during early development, as despite
+being constitutively expressed in all tissues [52], HUSH deﬁciency does not usually affect proliferation of differentiated cells [23], and HUSH components are not essential [53].
+The control of L1 elements and widespread changes on gene expression
+Phenotypes of HUSH deﬁciency are likely related to the role of HUSH in controlling the expression
+of L1 transposons. HUSH selectively targets full-length, transcriptionally active L1s usually derived from evolutionarily young families, including human-speciﬁc L1s (L1Hs) [12,13], the only
+retrotransposition-competent L1s [54]. These are exactly the elements that pose the highest
+threat to genome integrity, and their transcriptional repression by HUSH restricts their mobilization. Moreover, HUSH-occupied L1s are frequently located within the introns of actively transcribed genes, and H3K9me3 deposition over L1 sequences leads to transcriptional
+attenuation of host gene expression [12,55] through decreased RNA Pol II elongation [42].
+Although these effects are subtle, they are likely to be widespread, as 79% of human genes
+are estimated to contain at least one segment of L1 elements in their transcription unit [55].
+Safeguarding against interferon activation and suppression of the immune response
+In addition to the general impact on host transcriptome, HUSH-mediated L1 repression safeguards against the activation of interferons and inﬂammatory genes [56]. HUSH depletion in
+260
+
+Trends in Genetics, April 2023, Vol. 39, No. 4
+
+Trends in Genetics
+OPEN ACCESS
+
+human cell lines and primary ﬁbroblasts induces interferon-stimulated genes, an effect dependent
+on the expression of L1s, which can generate double-stranded RNAs that are sensed by cytoplasmic RIG-1-like receptors [56]. Given that many cancers show decreased MPP8 expression
+and are also characterized by a common dominant interferon signature [56], targeting the HUSH
+complex may represent a new therapeutic avenue in cancer immunotherapy. Interfering with
+HUSH expression may also make cancers more immunogenic through the release of L1 RNA
+to induce interferons and increase antitumor immunity. Indeed, a recent clustered regularly
+interspaced short palindromic repeats/CRISPR-associated protein 9 (CRISPR/Cas9) screen revealed that HUSH-mediated L1 silencing is a selective dependency of acute myeloid leukemia
+(AML), critical for both AML initiation and progression [50]. While HUSH is dispensable for normal
+hematopoiesis, all HUSH members – as well as MORC2, SETDB1, and ATF7IP – impair AML proliferation, and HUSH-deﬁcient AML cells fail to develop leukemia upon transplantation into immunodeﬁcient mice. Rather than related to interferon induction, this effect was attributed to L1induced DNA damage [50]. Both L1 activation and MPP8 deﬁciency results in DNA damage in
+AML, and blocking retrotransposition with reverse transcriptase inhibitor abrogates both DNA
+damage and growth defects of MPP8-deﬁcient cells [50]. HUSH and SETDB1 were also hits in
+an in vivo screen for factors contributing to cancer resistance to immunotherapy [57]. HUSH
+and SETDB1 loss sensitized solid tumors to immune checkpoint blockade (ICB). Whilst the
+HUSH effect was context-speciﬁc, and the exact mechanism was not studied in detail,
+SETDB1 loss activated transposons and immune gene clusters and led to a T cell antitumor response through the recognition of transposon-encoded antigens [57]. Collectively, these studies
+identify HUSH and SETDB1 as tumor suppressors and could lead to the development of novel
+epigenetic therapies that selectively enhance antitumor immunity.
+Innate immunity against incoming DNAs
+HUSH function extends well beyond controlling the expression of integrated retroviruses and
+retrotransposons. Experiments mimicking genome invasion with artiﬁcial cDNA transgenes revealed the ability of HUSH to target a vast range of invading genetic elements, independent of
+whether, where, and how they integrate into the genome [15]. By targeting long, intronless
+cDNA, HUSH distinguishes genome-invading intronless DNA from intron-containing genomic
+DNA, even in the absence of prior exposure to the invading element. This ability to distinguish
+self from nonself without prior exposure to the speciﬁc antigen is the outstanding feature of the
+innate immune system and is achieved through the recognition of conserved molecular patterns,
+maintained by invading pathogens but absent from their host. Consequently, HUSH is a novel
+component of the innate immune system and long, intronless cDNA is a pathogenassociated molecular pattern (PAMP) (Table 1). Intronless cDNA is the consequence of reverse transcription. By targeting cDNA for repression, HUSH controls the reverse ﬂow of genetic
+information from RNA to DNA within the genome (Figure 4, Key ﬁgure). Similar to other receptors
+of the innate immune system, HUSH is constitutively expressed across diverse cell types and thus
+provides a universal, cell-autonomous genome surveillance system (Table 1).
+What is the relationship between the HUSH pathway and other silencing systems such as KRABZFPs, DNA methylation, and the P-element-induced Wimpy testis (PIWI)-interacting RNA
+(piRNA) pathway? Do these pathways play redundant roles at the cellular and organismal
+level, or is there a clear division of labor between them? HUSH is constitutively expressed across
+diverse somatic cell types as well as pluripotent and germ cells. In contrast, KRAB-ZFPs show
+high tissue and cell-type speciﬁcity, and the expression of mammalian piRNA proteins is predominantly restricted to germline and gonadal tissues [58,59]. Therefore, whilst HUSH and DNA methylation are predicted to control mobile DNAs throughout the body, the piRNA pathway and
+KRAB-ZFPs have more specialized roles. Importantly, HUSH does not rely on the memory of
+
+Trends in Genetics, April 2023, Vol. 39, No. 4
+
+261
+
+Trends in Genetics
+OPEN ACCESS
+
+Table 1. Conceptual similarities between the HUSH pathway and the innate immune system
+Innate immune system
+
+HUSH complex
+
+Refs
+
+Recognizes a conserved pathogen-associated
+molecular pattern (PAMP): present in pathogens
+but absent from host; pathogens rely on PAMPs
+for their survival and/or virulence and thus have
+limited ability to mutate them
+
+A long, intronless cDNA is a molecular feature
+recognized by HUSH; this is characteristic of
+retroelements, mobile DNAs which replicate
+through an RNA intermediate, reverse transcribe
+their RNA genome, and integrate into the host
+genome. Infrequent in the host as mammalian
+genes have classical intron–exon structure;
+intronless cDNA is an important intermediate of
+the retroelement life cycle, necessary for
+integration to the host genome (Box 4)
+
+[15]
+
+Provides immediate protection against the
+invader, no requirement for memory
+
+Recognizes a broad range of diverse elements,
+even in the absence of previous exposure
+
+[15]
+
+Does not confer long-lasting immunity, and is
+followed by a potentially more effective adaptive
+response
+
+Provides only short-term repression over
+evolutionary timescales as it selectively targets
+evolutionarily young L1s which retain
+transcriptional activity
+HUSH-mediated repression limits the expression
+of mobile DNA, but does not completely prevent it;
+piRNA pathway and KRAB-ZFPs step in with time
+and provide lasting and more effective adaptive
+response?
+
+[12,13]
+
+Unlike components of adaptive immunity which
+are expressed in specialized cells, innate immune
+receptors are expressed in almost all cells
+
+HUSH is expressed in almost all cell types, whilst
+KRAB-ZFPs display tissue-speciﬁc expression and
+piRNAs/PIWI proteins are exclusively expressed in
+germline
+
+[67–70]
+
+previous invasions to recognize its target, and provides immediate protection against ‘nonself’
+DNA (Table 1) [15]. However, as HUSH selectively silences only evolutionarily young L1s
+[12,13], it does not confer long-lasting silencing across evolutionary timescales. In contrast, the
+piRNA and KRAB-ZFPs pathways cannot provide immediate defense against new mobile
+DNAs, but once established they maintain long-term memory to neutralize any similar future
+threat. By targeting newly-integrated, transcriptionally active genomic invaders for repression,
+HUSH may buffer any immediate, potentially deleterious effects on cellular ﬁtness and provide a
+window of opportunity to establish sequence-speciﬁc, adaptive repression by KRAB-ZFPs and
+piRNA pathways. Over time, silencing by KRAB-ZFPs may replace HUSH-mediated repression,
+ultimately leading to the acquisition of invading DNAs by the host genome.
+Only genome invasion of the germline and during embryogenesis can be transmitted to subsequent generations and maintained in the population. Early upon fertilization and during germcell speciﬁcation, the genome undergoes two distinct waves of DNA demethylation and is exposed to detrimental effects of reactivated transposons [60–62]. HUSH is essential for the survival
+of cells that have low levels of DNA methylation, suggesting that HUSH compensates for the DNA
+methylation loss upon fertilization to ensure continuous silencing of L1s [23]. Similarly, HUSH may
+cooperate with the piRNA pathway in transposon silencing during germ-cell speciﬁcation. Investigating how different genome defense pathways interact to initiate and maintain silencing of invading DNAs during development, and how these pathways cooperate to allow domestication
+of these elements, are important areas of future research.
+Targeting intronless genomic loci and long exons
+Recognition of long, intronless DNA enables HUSH to target sequence-diverse ‘nonself’ invading
+DNAs. However, this molecular pattern is also found within ‘self’ DNA, as 3% of the human
+262
+
+Trends in Genetics, April 2023, Vol. 39, No. 4
+
+Trends in Genetics
+OPEN ACCESS
+
+Key figure
+
+Human silencing hub (HUSH) targets products of reverse transcription for repression and controls
+the reverse ﬂow of genetic information within the genome
+Host genes
+
+Retroelements
+RNA
+Genome
+
+mRNA
+DNA to RNA
+
+Exon
+
+RNA
+
+RNA
+Intron
+
+Intron-containing gene
+
+Reverse transcription
+DNA genome
+
+RNA to DNA
+
+Viral DNA
+
+No repression
+
+Retrotransposon with cellular mRNA
+
+Retrotransposon
+RNA
+
+Retrovirus
+
+mRNA
+
+RNA
+
+DNA to RNA
+
+RNA
+
+RNA to DNA
+
+DNA to RNA
+
+New LINE-1 insertion
+
+LINE-1
+
+Host gene
+
+RNA
+RNA to DNA
+Intronless gene copy
+
+TASOR
+Periphilin
+
+MPP8
+
+Control of the
+(from RNA to DNA) within the genome
+Trends in Genetics
+
+Figure 4. Mammalian genes have an intron–exon structure and undergo splicing during DNA-to-RNA transcription. Retroelements replicate through an RNA intermediate
+and are reverse transcribed to DNA and integrate into the host genome. Recognition of intronless complementary DNA (cDNA), a product of reverse transcription, allows
+HUSH to control the reverse genetic ﬂow within the host genome. Abbreviations: LINE-1, long interspersed element-1; MPP8, M-phase phosphoprotein 8; TASOR,
+transcription activation suppressor.
+
+genome is intronless. Consistently, a subset of intronless genomic loci show HUSH occupancy,
+HUSH-mediated H3K9me3 deposition, and periphilin binding to their RNAs [15] (Box 6). In contrast,
+the majority of intron-containing genes (without intronic L1 insertions) are not susceptible to HUSH.
+The main exceptions are genes with unusually long exons, as HUSH treats these very long exons
+in a similar manner to intronless genes [14,15]. The average exon length in the human genome is
+~150 bp, but many genes have single long exons (>1.5 kb). For instance, ZFP domains within
+KRAB-ZFPs are encoded by a single long 3′ exon (average length ~4.5 kb) and coding sequences
+of some protocadherin genes are within a single large exon (average length >2.5 kb) [63]. HUSH is
+recruited to such transcribed exons of KRAB-ZFPs, protocadherins, and other genes (e.g., BRCA2,
+MUC16) where it promotes H3K9me3 deposition [7,14,15,51]. This targeting of long exons, whose
+molecular features clearly resemble intronless cDNAs, shows that any deviation from a classical
+exon–intron architecture can initiate HUSH recruitment. It can also have signiﬁcant cellular and physiological consequences as illustrated by HUSH-mediated repression of protocadherin genes being
+important for brain development and neuronal individuality [51].
+The emergence of new genes
+The ability of HUSH to recognize sequence-diverse genetic elements is essential as it enables
+HUSH to target retrotransposed cellular mRNAs (intronless retrocopies and processed
+pseudogenes) for transcriptional repression. This capability appears to be unique: no other
+mammalian transposon silencing pathway targets such products of reverse transcription.
+Retrotransposition of cellular mRNA creates new intronless genomic loci and represents a
+major route for the formation of new genes (Box 5) [64]. HUSH-mediated repression therefore
+
+Trends in Genetics, April 2023, Vol. 39, No. 4
+
+263
+
+Trends in Genetics
+OPEN ACCESS
+
+Box 6. Selective repression of intronless loci by HUSH
+As a result of recognition of long, intronless cDNA, HUSH targets intronless genomic loci within the host genome. However,
+HUSH-repressed intronless loci account for a small fraction of all intronless loci. This raises the question of why only some
+intronless loci are repressed by HUSH. Many are simply nontranscribed and therefore not targeted by HUSH. However, there
+are still many transcribed intronless loci that do not show HUSH-mediated H3K9me3. HUSH may preferentially target
+intronless genomic loci with high adenine content and length >1.5 kb, as seen for transgenes [15], and only the most evolutionarily young loci, as seen for L1s [12,13]. Some HUSH-repressed intronless loci are indeed derived from recent transposition events: UTP14C, a copy of X-linked gene UTP14A, is a primate-speciﬁc retrogene repressed by HUSH [100,101], as is
+the RBMXL1 gene that likely arose prior to divergence of the human and primate lineage [102]. Interestingly, many intronless
+loci without HUSH-mediated H3K9me3 still show periphilin binding to their transcripts. This observation suggests that
+periphilin may sample transcripts from many loci, of which relatively few are eventually modiﬁed by H3K9me3, because either
+periphilin binding to target RNA is insufﬁcient for H3K9me3 deposition, or an active mechanism prevents H3K9me3 deposition over some genes. Investigating HUSH-repressed intronless loci in more detail may not only help determine the basis for
+selective repression of these targets but may also reveal important mechanistic insight into HUSH function.
+
+has important implications for the genesis of new genes and their functional evolution. A newly integrated transcribed retrocopy may be detrimental to the host if it affects host gene expression.
+For instance, an inserted retrocopy may interfere with splicing and/or polyadenylation, and
+retrocopies carrying their own promoters can also affect the transcriptional machinery of the
+host gene [65]. In addition, while the retrocopy might confer a selective advantage (e.g., to
+germ cells), the increased gene dose may be deleterious for other cell types. Therefore, natural
+selection often acts against transcriptionally active retrocopy insertions [65]. By repressing such
+retrocopies, HUSH counteracts potentially negative effects on host gene transcription and cellular
+ﬁtness, and facilitates their acquisition by the host genome.
+Practical implications of promiscuous transgene repression by HUSH
+The ability of HUSH to repress a diverse range of DNAs has practical implications, being highly
+relevant for any molecular biology experiment that involves transgene expression, including
+gene editing by CRISPR/Cas9, as well as gene therapy. HUSH-mediated silencing signiﬁcantly
+restricts expression from different integrated transgenes, including lentiviral and nonviral, as
+well as from transfected plasmids and AAV vectors [15,26,66]. As HUSH is constitutively
+expressed in the majority of cell types, transgene repression by HUSH is not restricted to any speciﬁc cell line. Thus, inefﬁcient transgene expression resulting from HUSH-mediated repression
+likely represents a universal problem. Over the past decades, considerable efforts have been
+made to improve transgene expression, in particular from lentiviral vectors that provide a versatile
+means for ex vivo and in vivo gene transfer into dividing and nondividing cells. The realization that
+HUSH repression is an important bottleneck to achieve high gene expression will enable improved transgene optimization strategies. Similarly, as Cas9 expression from lentiviral transgenes
+is markedly HUSH-restricted [15], HUSH-mediated repression is relevant for efﬁcient CRISPR/
+Cas9 gene editing and CRISPR-mediated control of gene expression (CRISPR interference or
+activation). For applications where Cas9 expression is a limiting factor for successful gene editing,
+transient HUSH complex inhibition may be essential to achieve the desired outcome. Finally,
+HUSH repression of transfected transgenes means that HUSH is likely to limit the efﬁciency of lentiviral particle production. Low expression from the lentiviral transfer vector will result in decreased
+viral titers. HUSH-deﬁcient cells may therefore enhance expression and packaging of large lentiviral constructs in applications where a high lentiviral titer is required. Further work will fully characterize the importance of HUSH repression in such practical applications.
+
+Concluding remarks and future perspectives
+Despite only 7 years since the discovery of the HUSH complex, HUSH has emerged as a critical
+player in genome defense, with far-reaching implications for genome evolution and function. The
+264
+
+Trends in Genetics, April 2023, Vol. 39, No. 4
+
+Outstanding questions
+What is the trigger for HUSH recruitment to the target loci? Is periphilin–
+RNA binding the only source of speciﬁcity? How does canonical HUSH
+function differ from noncanonical
+(NP220-mediated)?
+What is the function of TASOR and its
+protein domains that are critical for repression: poly(ADP-ribose) polymerase (PARP) and Spen paralog and
+ortholog C-terminal domain (SPOC)?
+Is RNA–periphilin binding required to
+maintain repression? Which domain
+mediates RNA binding?
+What is the mechanism by which
+HUSH silences transcription? How
+does H3K9me3 affect transcription
+over HUSH targets? What is the function of H3K9me3?
+Introns protect against HUSH repression, but neither splicing nor
+spliceosome recruitment is required.
+How does normal intron–exon structure
+protect against HUSH repression?
+What is the role of HUSH during early
+development and germline speciﬁcation? What is the basis for embryonic
+lethality of the HUSH complex deﬁciency? Is it through failure to compensate for DNA methylation loss upon
+fertilization?
+What is the relationship between
+HUSH-mediated silencing and other
+epigenetic silencing pathways?
+How does HUSH-mediated repression
+affect genome evolution and function?
+Does HUSH function impose any constraints on mammalian and retroviral
+genomes? How has this shaped retroviral evolution?
+Can HUSH inhibition be harnessed for
+therapeutic applications (e.g., gene
+therapy, cancer therapy, anti-HIV-1
+therapy)?
+
+Trends in Genetics
+OPEN ACCESS
+
+basic operating principles of this RNA-mediated transcriptional silencing system have now been
+deﬁned, along with a set of targeted genetic elements (Figure 2A) and rules that underlie their selection. However, our understanding of the molecular mechanisms underlying HUSH repression
+and speciﬁcity, as well as the exact function of HUSH components and their protein domains,
+remains incomplete (see Outstanding questions). Advances in cryoelectron microscopy and
+in silico protein structure predictions will facilitate detailed structural interrogation of the HUSH
+complex, while identiﬁcation of mutants deﬁcient in key activities such as RNA binding is likely
+to provide important insights into mechanisms of repression. Given that HUSH recruitment to
+the target transcript is likely to be tightly intertwined with transcription kinetics and nascent
+RNA dynamics, advances in genomic tools and the ability to track transcriptional activity and nascent RNA in live cells with single-molecule microscopy should help explain how HUSH is recruited to its target loci. Similarly, such tools will also determine the exact contribution of HUSH
+and H3K9me3 to transcriptional repression.
+Beyond a mechanistic understanding of HUSH function is a requirement to understand how
+HUSH contributes to mammalian genome evolution (see Outstanding questions). While somatic
+HUSH function is likely to play a key role in domestication of mobile elements (e.g., by offsetting
+potential negative effects of newly emerged genes and transposons), it will be critical to establish
+the importance of HUSH function during early development and germline speciﬁcation, stages
+that support inheritance of newly integrated genetic elements. Understanding the relationship between HUSH and other silencing systems that are active during these stages (e.g., the piRNA
+pathway) is therefore essential. Harnessing functional genetics approaches to mimic genome invasion by mobile DNAs in both mouse model systems and in vitro cellular models of early embryo
+and germline will allow testing of how different pathways respond to mobile DNAs, and will ultimately help us to understand how these elements become domesticated. Investigating the intricate relationship between nonself genetic elements and the host pathways controlling them will
+help to unveil mechanisms that shape human genome evolution.
+Finally, future research should also characterize the importance of HUSH repression in practical applications (i.e., enhancing gene therapy) and investigate the potential of therapeutically targeting the
+complex for novel immuno-oncology treatments as well as latency reversal in HIV-1 infection.
+Acknowledgments
+We thank all members of the Lehner laboratory for helpful discussions. This work was supported by the Wellcome Trust
+Principal Research Fellowship to P.J.L. (210688/Z/18/Z). M.S. was supported by a Boehringer Ingelheim Fonds PhD
+fellowship (2018–2020). The work was further supported by the NIHR Cambridge Biomedical Research Centre.
+
+Declaration of interests
+No interests are declared.
+
+References
+1. Schlee, M. and Hartmann, G. (2016) Discriminating self from
+non-self in nucleic acid sensing. Nat. Rev. Immunol. 16,
+566–580
+2. de Oliveira, Mann C.C. and Hornung, V. (2021) Molecular
+mechanisms of nonself nucleic acid recognition by the innate
+immune system. Eur. J. Immunol. 51, 1897–1910
+3. Chuong, E.B. et al. (2017) Regulatory activities of transposable
+elements: from conﬂicts to beneﬁts. Nat. Rev. Genet. 18, 71–86
+4. Fueyo, R. et al. (2022) Roles of transposable elements in the
+regulation of mammalian transcription. Nat. Rev. Mol. Cell Biol.
+23, 481–497
+5. Almeida, M.V. et al. (2022) Taming transposable elements in
+vertebrates: from epigenetic silencing to domestication. Trends
+Genet. 38, 529–553
+
+6. Cordaux, R. and Batzer, M.A. (2009) The impact of
+retrotransposons on human genome evolution. Nat. Rev.
+Genet. 10, 691–703
+7. Tchasovnikarova, I.A. et al. (2015) Epigenetic silencing by the
+HUSH complex mediates position-effect variegation in human
+cells. Science 348, 1481–1485
+8. Tchasovnikarova, I.A. et al. (2017) Hyperactivation of HUSH
+complex function by Charcot–Marie–Tooth disease mutation
+in MORC2. Nat. Genet. 49, 1035–1044
+9. Liu, L. et al. (2011) A whole genome screen for HIV restriction
+factors. Retrovirology 8, 94
+10. Chougui, G. and Margottin-Goguet, F. (2019) HUSH, a link
+between intrinsic immunity and HIV latency. Front. Microbiol.
+10, 224
+
+Trends in Genetics, April 2023, Vol. 39, No. 4
+
+265
+
+Trends in Genetics
+OPEN ACCESS
+
+11. Timms, R.T. et al. (2016) Position-effect variegation revisited:
+HUSHing up heterochromatin in human cells. BioEssays 38,
+333–343
+12. Liu, N. et al. (2018) Selective silencing of euchromatic L1s revealed by genome-wide screens for L1 regulators. Nature
+553, 228–232
+13. Robbez-Masson, L. et al. (2018) The HUSH complex cooperates with TRIM28 to repress young retrotransposons and new
+genes. Genome Res. 28, 836–845
+14. Douse, C.H. et al. (2020) TASOR is a pseudo-PARP that directs
+HUSH complex assembly and epigenetic transposon control.
+Nat. Commun. 11, 4940
+15. Seczynska, M. et al. (2021) Genome surveillance by HUSHmediated silencing of intronless mobile elements. Nature 601,
+440–445
+16. Piovesan, A. et al. (2016) GeneBase 1.1: a tool to summarize
+data from NCBI gene datasets and its application to an update
+of human gene statistics. Database 2016, baw153
+17. Douse, C.H. et al. (2018) Neuropathic MORC2 mutations
+perturb GHKL ATPase dimerization dynamics and epigenetic silencing by multiple structural mechanisms. Nat.
+Commun. 9, 651
+18. Matkovic, R. et al. (2022) TASOR epigenetic repressor cooperates with a CNOT1 RNA degradation pathway to repress HIV.
+Nat. Commun. 13, 1–17
+19. Kokura, K. et al. (2010) Methyl-H3K9-binding protein MPP8
+mediates E-cadherin gene silencing and promotes tumour cell
+motility and invasion. EMBO J. 29, 3673–3687
+20. Tsusaka, T. et al. (2018) Tri-methylation of ATF7IP by G9a/GLP
+recruits the chromodomain protein. Epigenetics Chromatin 11, 56
+21. Timms, R.T. et al. (2016) ATF7IP-mediated stabilization of the
+histone methyltransferase SETDB1 is essential for heterochromatin formation by the HUSH complex. Cell Rep. 17, 653–659
+22. Tsusaka, T. et al. (2019) ATF7IP regulates SETDB1 nuclear localization and increases its ubiquitination. EMBO Rep. 20, e48297
+23. Müller, I. et al. (2021) MPP8 is essential for sustaining self-renewal of
+ground-state pluripotent stem cells. Nat. Commun. 12, 1–17
+24. Prigozhin, D.M. et al. (2020) Periphilin self-association underpins epigenetic silencing by the HUSH complex. Nucleic Acids
+Res. 48, 10313–10328
+25. Zhu, Y. et al. (2018) NP220 mediates silencing of unintegrated
+retroviral DNA. Nature 564, 278–282
+26. Das, A. et al. (2022) Epigenetic silencing of recombinant adenoassociated virus genomes by NP220 and the HUSH complex.
+J. Virol. 96, e0203921
+27. Alabert, C. et al. (2015) Two distinct modes for propagation of
+histone PTMs across the cell cycle. Genes Dev. 29, 585–590
+28. Bühler, M. (2009) RNA turnover and chromatin-dependent
+gene silencing. Chromosoma 118, 141–151
+29. Moazed, D. (2011) Mechanisms for the inheritance of chromatin
+states. Cell 146, 510–518
+30. Kloc, A. et al. (2008) RNA interference guides histone modiﬁcation during the s phase of chromosomal replication. Curr. Biol.
+18, 490–495
+31. Busch, A. and Hertel, K.J. (2012) Evolution of SR protein and hnRNP
+splicing regulatory factors. Wiley Interdiscip. Rev. RNA 3, 1–12
+32. Schwartz, S. et al. (2009) Chromatin organization marks exon–
+intron structure. Nat. Struct. Mol. Biol. 16, 990–995
+33. Tilgner, H. et al. (2009) Nucleosome positioning as a determinant of exon recognition. Nat. Struct. Mol. Biol. 16, 996–1001
+34. Andersson, R. et al. (2009) Nucleosomes are well positioned in
+exons and carry characteristic histone modiﬁcations. Genome
+Res. 19, 1732–1741
+35. Veloso, A. et al. (2014) Rate of elongation by RNA polymerase II
+is associated with speciﬁc gene features and epigenetic modiﬁcations. Genome Res. 24, 896–905
+36. Chang, Y. et al. (2011) MPP8 mediates the interactions between DNA methyltransferase Dnmt3a and H3K9 methyltransferase GLP/G9a. Nat. Commun. 2, 533
+37. Garland, W. et al. (2022) Chromatin modiﬁer HUSH cooperates with RNA decay factor NEXT to restrict transposable
+element expression. Mol. Cell 82, 1691–1707.e8
+38. Zofall, M. et al. (2012) RNA elimination machinery targeting meiotic mRNAs promotes facultative heterochromatin formation.
+Science 335, 96–100
+
+266
+
+Trends in Genetics, April 2023, Vol. 39, No. 4
+
+39. Lee, N.N. et al. (2013) Mtr4-like protein coordinates nuclear
+RNA processing for heterochromatin assembly and for telomere maintenance. Cell 155, 1061–1074
+40. Shipkovenska, G. et al. (2020) A conserved RNA degradation
+complex required for spreading and epigenetic inheritance of
+heterochromatin. eLife 9, 1–25
+41. Zhou, H. et al. (2022) Rixosomal RNA degradation contributes
+to silencing of Polycomb target genes. Nature 604, 167–174
+42. Saint-André, V. et al. (2011) Histone H3 lysine 9 trimethylation
+and HP1γ favor inclusion of alternative exons. Nat. Struct.
+Mol. Biol. 18, 337–344
+43. Becker, J.S. et al. (2016) H3K9me3-dependent heterochromatin: barrier to cell fate changes. Trends Genet. 32, 29
+44. Harten, S.K. et al. (2014) The ﬁrst mouse mutants of D14Abb1e
+(Fam208a) show that it is critical for early development. Mamm.
+Genome 25, 293–303
+45. Soehn, A.S. et al. (2009) Periphilin is strongly expressed in the
+murine nervous system and is indispensable for murine development. Genesis 47, 697–707
+46. Liu, S. et al. (2014) Setdb1 is required for germline development
+and silencing of H3K9me3-marked endogenous retroviruses in
+primordial germ cells. Genes Dev. 28, 2041–2055
+47. Bilodeau, S. et al. (2009) SetDB1 contributes to repression of
+genes encoding developmental regulators and maintenance of
+ES cell state. Genes Dev. 23, 2484–2489
+48. Muller, H.J. (1930) Types of visible variations induced by X-rays
+in Drosophila. J. Genet. 22, 299–334
+49. Dodge, J.E. et al. (2004) Histone H3-K9 methyltransferase
+ESET is essential for early development. Mol. Cell. Biol. 24,
+2478–2486
+50. Gu, Z. et al. (2021) Silencing of LINE-1 retrotransposons is a selective
+dependency of myeloid leukemia. Nat. Genet. 53, 672–682
+51. Hagelkruys, A. et al. (2022) The HUSH complex controls brain
+architecture and protocadherin ﬁdelity. Sci. Adv. 8, 7247
+52. Uhlén, M. et al. (2015) Tissue-based map of the human
+proteome. Science 347, 126049
+53. Dempster, J.M. et al. (2019) Extracting biological insights from
+the pro ject Achilles genome-scale CRISPR screens in cancer
+cell lines. bioRxiv Published online July 31, 2019. https://doi.
+org/10.1101/720243
+54. Brouha, B. et al. (2003) Hot L1s account for the bulk of
+retrotransposition in the human population. Proc. Natl. Acad.
+Sci. U. S. A. 100, 5280–5285
+55. Han, J.S. et al. (2004) Transcriptional disruption by the L1
+retrotransposon and implications for mammalian transcriptomes.
+Nature 429, 268–274
+56. Tunbak, H. et al. (2020) The HUSH complex is a gatekeeper of
+type I interferon through epigenetic regulation of LINE-1s. Nat.
+Commun. 11, 1–15
+57. Grifﬁn, G.K. et al. (2021) Epigenetic silencing by SETDB1 suppresses tumour intrinsic immunogenicity. Nature 595, 309–314
+58. Ozata, D.M. et al. (2019) PIWI-interacting RNAs: small RNAs
+with big functions. Nat. Rev. Genet. 20, 89–108
+59. Ernst, C. et al. (2017) The emergence of piRNAs against transposon invasion to preserve mammalian genome integrity. Nat.
+Commun. 8, 1411
+60. Morgan, H.D. et al. (2005) Epigenetic reprogramming in mammals. Hum. Mol. Genet. 14, R47–R58
+61. Messerschmidt, D.M. et al. (2014) DNA methylation dynamics
+during epigenetic reprogramming in the germline and preimplantation embryos. Genes Dev. 28, 812
+62. Hajkova, P. et al. (2008) Chromatin dynamics during epigenetic
+reprogramming in the mouse germ line. Nature 452, 877–881
+63. Wu, Q. and Maniatis, T. (1999) A striking organization of a large family
+of human neural cadherin-like cell adhesion genes. Cell 97, 779–790
+64. Marques, A.C. et al. (2005) Emergence of young human genes
+after a burst of retroposition in primates. PLoS Biol. 3, 1970–1979
+65. Vinckenbosch, N. et al. (2006) Evolutionary fate of retroposed gene
+copies in the human genome. Proc. Natl. Acad. Sci. U. S. A. 103,
+3220–3225
+66. Yurkovetskiy, L. et al. (2018) Primate immunodeﬁciency virus proteins Vpx and Vpr counteract transcriptional repression of proviruses by the HUSH complex. Nat. Microbiol. 3, 1354–1361
+67. Imbeault, M. et al. (2017) KRAB zinc-ﬁnger proteins contribute to
+the evolution of gene regulatory networks. Nature 543, 550–554
+
+Trends in Genetics
+OPEN ACCESS
+
+68. Bateman, A. et al. (2021) UniProt: the universal protein
+knowledgebase in 2021. Nucleic Acids Res. 49, D480–D489
+69. Aravin, A. et al. (2006) A novel class of small RNAs bind to MILI
+protein in mouse testes. Nature 442, 203–207
+70. Aravin, A.A. et al. (2008) A piRNA pathway primed by individual
+transposons is linked to de novo DNA methylation in mice. Mol.
+Cell 31, 785–799
+71. Lander, E.S. et al. (2001) Initial sequencing and analysis of the
+human genome. Nature 409, 860–921
+72. Bourque, G. et al. (2018) Ten things you should know about
+transposable elements. Genome Biol. 19, 1–12
+73. Wicker, T. et al. (2007) A uniﬁed classiﬁcation system for eukaryotic transposable elements. Nat. Rev. Genet. 8, 973–982
+74. Rubin, G.M. et al. (1982) The molecular basis of P-M hybrid
+dysgenesis: the nature of induced mutations. Cell 29, 987–994
+75. Greenblatt, I.M. and Brink, R.A. (1963) Transpositions of modulator in maize into divided and undivided chromosome segments. Nature 197, 412–413
+76. Brown, P.O. et al. (1987) Correct integration of retroviral DNA
+in vitro. Cell 49, 347–356
+77. Luan, D.D. et al. (1993) Reverse transcription of R2Bm RNA is
+primed by a nick at the chromosomal target site: a mechanism
+for non-LTR retrotransposition. Cell 72, 595–605
+78. Cosby, R.L. et al. (2021) Recurrent evolution of vertebrate transcription factors by transposase capture. Science 371, eabc6405
+79. Brennecke, J. et al. (2008) An epigenetic role for maternally inherited
+piRNAs in transposon silencing. Science 322, 1387–1392
+80. Yu, T. et al. (2019) The piRNA response to retroviral invasion of
+the koala genome. Cell 179, 632–643.e12
+81. Elgin, S.C.R. and Reuter, G. (2013) Position-effect variegation,
+heterochromatin formation, and gene silencing in Drosophila.
+Cold Spring Harb. Perspect. Biol. 5, a017780
+82. Keating, C.P. et al. (2009) The A-rich RNA sequences of HIV-1
+pol are important for the synthesis of viral cDNA. Nucleic Acids
+Res. 37, 945–956
+83. Müller, V. and Bonhoeffer, S. (2005) Guanine–adenine bias: a
+general property of retroid viruses that is unrelated to hostinduced hypermutation. Trends Genet. 21, 264–268
+84. Kypr, J. and Mrázek, J. (1987) Unusual codon usage of HIV.
+Nature 327, 20
+85. Esnault, C. et al. (2000) Human LINE retrotransposons generate
+processed pseudogenes. Nat. Genet. 24, 363–367
+
+86. Greenwood, E.J.D. et al. (2019) Promiscuous targeting of cellular proteins by Vpr drives systems-level proteomic remodeling in
+HIV-1 infection. Cell Rep. 27, 1579–1596.e7
+87. Chougui, G. et al. (2018) HIV-2/SIV viral protein X counteracts
+HUSH repressor complex. Nat. Microbiol. 3, 891–897
+88. Kolosha, V.O. and Martin, S.L. (2003) High-afﬁnity, nonsequence-speciﬁc RNA binding by the open reading frame 1
+(ORF1) protein from long interspersed nuclear element 1
+(LINE-1). J. Biol. Chem. 278, 8112–8117
+89. Doucet, A.J. et al. (2015) A 3′ poly(A) tract Is required for LINE-1
+retrotransposition. Mol. Cell 60, 728–741
+90. Kaessmann, H. et al. (2008) RNA-based gene duplication: mechanistic and evolutionary insights. Nat. Rev. Genet. 10, 19–31
+91. Carelli, F.N. et al. (2016) The life history of retrocopies illuminates the
+evolution of new mammalian genes. Genome Res. 26, 301
+92. Zhang, Z. et al. (2004) Comparative analysis of processed
+pseudogenes in the mouse and human genomes. Trends
+Genet. 20, 62–67
+93. Troskie, R.L. et al. (2021) Long-read cDNA sequencing
+identiﬁes functional pseudogenes in the human transcriptome.
+Genome Biol. 22, 146
+94. Pan, D. and Zhang, L. (2009) Burst of young retrogenes and independent retrogene formation in mammals. PLoS One 4, e5040
+95. Troskie, R.L. et al. (2021) Processed pseudogenes: a substrate
+for evolutionary innovation. BioEssays 43, 2100186
+96. Fablet, M. et al. (2009) Evolutionary origin and functions of
+retrogene introns. Mol. Biol. Evol. 26, 2147–2156
+97. Okamura, K. and Nakai, K. (2008) Retrotransposition as a
+source of new promoters. Mol. Biol. Evol. 25, 1231–1238
+98. Rosso, L. et al. (2008) Mitochondrial targeting adaptation of the
+hominoid-speciﬁc glutamate dehydrogenase driven by positive
+Darwinian selection. PLoS Genet. 4, e1000150
+99. Rosso, L. et al. (2008) Birth and rapid subcellular adaptation of
+a hominoid-speciﬁc CDC14 protein. PLoS Biol. 6, 1281–1291
+100. Rohozinski, J. et al. (2006) UTP14c is a recently acquired
+retrogene associated with spermatogenesis and fertility in
+man. Biol. Reprod. 74, 644–651
+101. Rohozinski, J. (2017) Lineage-independent retrotransposition of
+UTP14 associated with male fertility has occurred multiple times
+throughout mammalian evolution. R. Soc. Open Sci. 4, 171049
+102. Lingenfelter, P.A. et al. (2001) Expression and conservation of processed copies of the RBMX gene. Mamm. Genome 12, 538–545
+
+Trends in Genetics, April 2023, Vol. 39, No. 4
+
+267
+
+
