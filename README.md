@@ -27,8 +27,6 @@ strict/                         ← FINALNA analiza (najważniejsza)
     └── gc_content_results.csv    ← surowe dane GC
 
 ncbi_final/                     ← pośrednia wersja (elastyczne progi)
-cat_liftoff/                    ← porzucone podejście (CAT+Liftoff GTF)
-merged_gtf/                     ← porzucone podejście (scalony GTF)
 Publications/                   ← publikacje źródłowe (pliki .txt)
 ```
 

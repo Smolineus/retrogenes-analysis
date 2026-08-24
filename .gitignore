@@ -28,6 +28,10 @@ liftOver
 # ==== WEJSCIOWE ENCODE (32 MB, odtwarzalne przez liftover) ====
 encode4_long_liftover.bed
 
+# ==== PORZUCONE PODEJSCIA (nie w repo) ====
+cat_liftoff/
+merged_gtf/
+
 # ==== TYMCZASOWE ====
 *.tmp
 *.log
