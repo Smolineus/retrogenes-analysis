@@ -18,10 +18,13 @@ strict/                         ← FINALNA analiza (najważniejsza)
 ├── list4_other_strict.bed       ← 5 710 reszta
 ├── list5_selfhit.bed            ← 3 256 self-hit
 ├── selected_encode4_{intergenic,intronic,cds}.bed ← wybrane transkrypty ENCODE
-└── fasta/
+    └── fasta/
     ├── intergenic_transcripts.fa ← 941 sekwencji
     ├── intronic_transcripts.fa   ← 1 038 sekwencji
-    └── cds_transcripts.fa        ← 398 sekwencji
+    ├── cds_transcripts.fa        ← 398 sekwencji
+    ├── gc_analysis.py            ← analiza GC (okna 100 nt od 5' końca)
+    ├── gc_statistics.py          ← test Mann-Whitney U
+    └── gc_content_results.csv    ← surowe dane GC
 
 ncbi_final/                     ← pośrednia wersja (elastyczne progi)
 cat_liftoff/                    ← porzucone podejście (CAT+Liftoff GTF)
@@ -47,6 +50,26 @@ Publications/                   ← publikacje źródłowe (pliki .txt)
 3. **Selekcja transkryptów** - intronowe: single-exon > długość zbliżona > lider 5';
    intergenic/CDS: długość zbliżona > lider 5'
 4. **Sekwencje** - `bedtools getfasta -split -s` (eksony poskładane, nić uwzględniona)
+5. **Analiza GC** - okno 100 nt od końca 5', porównanie między kategoriami
+
+## Wyniki analizy GC content (koniec 5')
+
+| Kategoria | n | GC 5' (średnia) | GC całość (średnia) |
+|-----------|-----|-----------------|---------------------|
+| CDS       | 398 | **0.596**       | 0.524 |
+| Intergenic| 941 | 0.518           | 0.476 |
+| Intronic  | 1038| 0.509           | 0.468 |
+
+**Test Mann-Whitney U (GC na 5'):**
+
+| Porównanie | p-value | Istotność |
+|------------|---------|-----------|
+| Intergenic vs Intronic | 0.084 | n.s. |
+| Intergenic vs CDS      | <0.001 | *** |
+| Intronic vs CDS        | <0.001 | *** |
+
+**Gradient GC wzdłuż 5'→3'** (okna 100 nt): wszystkie kategorie mają
+najwyższe GC na końcu 5' i spadek w kierunku 3' — zgodne z Mordstein 2020.
 
 ## Wymagania
 
