@@ -1,0 +1,44 @@
+Źródła testów statystycznych używanych w analizie
+
+1. Test normalności Shapiro-Wilka
+
+Shapiro, S. S., & Wilk, M. B. (1965). An analysis of variance test for
+normality (complete samples). Biometrika, 52(3/4), 591–611.
+DOI: 10.1093/biomet/52.3-4.591
+
+2. Test Manna-Whitneya U (Wilcoxon rank-sum)
+
+Mann, H. B., & Whitney, D. R. (1947). On a test of whether one of two random
+variables is stochastically larger than the other. The Annals of Mathematical
+Statistics, 18(1), 50–60.
+DOI: 10.1214/aoms/1177730491
+
+Oryginalny test rangowy (alternatywne cytowanie):
+
+Wilcoxon, F. (1945). Individual comparisons by ranking methods. Biometrics
+Bulletin, 1(6), 80–83.
+DOI: 10.2307/3001968
+
+3. Korekta Bonferroniego
+
+Dunn, O. J. (1961). Multiple comparisons among means. Journal of the American
+Statistical Association, 56(293), 52–64.
+DOI: 10.1080/01621459.1961.10482090
+
+Oryginalna praca:
+
+Bonferroni, C. E. (1936). Teoria statistica delle classi e calcolo delle
+probabilità. Pubblicazioni del R Istituto Superiore di Scienze Economiche e
+Commerciali di Firenze, 8, 3–62.
+
+4. Implementacja (SciPy)
+
+Virtanen, P. et al. (2020). SciPy 1.0: fundamental algorithms for scientific
+computing in Python. Nature Methods, 17, 261–272.
+DOI: 10.1038/s41592-019-0686-2
+
+Dokumentacja funkcji:
+- scipy.stats.shapiro
+  https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.shapiro.html
+- scipy.stats.mannwhitneyu
+  https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.mannwhitneyu.html
