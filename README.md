@@ -8,10 +8,12 @@ sekwencji transkryptów do analizy GC content.
 
 ```
 strict/                         ← FINALNA analiza (najważniejsza)
-├── classify_4lists_strict.sh   ← klasyfikacja retrogenów na 4 listy
-├── validate_encode4_strict.sh  ← walidacja ENCODE (intersekcja)
+├── CDS_one_exon.py              ← generuje single_cds.bed (transkrypty z 1 CDS)
+├── classify_4lists_strict.sh    ← klasyfikacja retrogenów na 4 listy
+├── validate_encode4_strict.sh   ← walidacja ENCODE (intersekcja)
 ├── select_encode4_transcripts.py ← selekcja 1 transkryptu ENCODE na retrogen
-├── fix_intronic_by_ensg.py     ← poprawka multi-exon (tylko intronowe)
+├── fix_intronic_by_ensg.py      ← poprawka multi-exon (tylko intronowe)
+├── single_cds.bed               ← transkrypty z dokładnie 1 egzonem kodującym
 ├── list1_intergenic_strict.bed  ← 5 205 międzygenowych
 ├── list2_intronic_strict.bed    ← 3 191 intronowych
 ├── list3_cds_one_exon_strict.bed ← 768 CDS w 1 egzonie
@@ -26,8 +28,8 @@ strict/                         ← FINALNA analiza (najważniejsza)
     ├── gc_statistics.py          ← test Shapiro-Wilk + Mann-Whitney U
     └── gc_content_results.csv    ← surowe dane GC
 
-ncbi_final/                     ← pośrednia wersja (elastyczne progi)
 Publications/                   ← publikacje źródłowe (pliki .txt)
+human_retrocopies_merged.bed    ← dane wejściowe (14 874 retrogenów)
 ```
 
 ## Dane wejściowe (NIE w repo)
