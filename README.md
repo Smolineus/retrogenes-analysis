@@ -79,5 +79,7 @@ najwyższe GC na końcu 5' i spadek w kierunku 3' — zgodne z Mordstein 2020.
 ## Wymagania
 
 - bedtools, samtools
-- Python 3 (skrypty selekcji)
+- Python 3 + biblioteki:
+  - `pandas` (skrypt `CDS_one_exon.py`)
+  - `scipy` + `numpy` (skrypt `gc_statistics.py`)
 - liftOver (tylko do regeneracji `encode4_long_liftover.bed`)
