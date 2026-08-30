@@ -18,12 +18,12 @@ strict/                         ← FINALNA analiza (najważniejsza)
 ├── list4_other_strict.bed       ← 5 710 reszta
 ├── list5_selfhit.bed            ← 3 256 self-hit
 ├── selected_encode4_{intergenic,intronic,cds}.bed ← wybrane transkrypty ENCODE
-    └── fasta/
+└── fasta/
     ├── intergenic_transcripts.fa ← 941 sekwencji
     ├── intronic_transcripts.fa   ← 1 038 sekwencji
     ├── cds_transcripts.fa        ← 398 sekwencji
     ├── gc_analysis.py            ← analiza GC (okna 100 nt od 5' końca)
-    ├── gc_statistics.py          ← test Mann-Whitney U
+    ├── gc_statistics.py          ← test Shapiro-Wilk + Mann-Whitney U
     └── gc_content_results.csv    ← surowe dane GC
 
 ncbi_final/                     ← pośrednia wersja (elastyczne progi)
@@ -44,6 +44,9 @@ Publications/                   ← publikacje źródłowe (pliki .txt)
 1. **Klasyfikacja** - priorytet: CDS 1 egzon → intron → reszta → intergenic.
    - intronowe: 0% overlapu z eksonem (po filtrze self-overlapu po nazwie genu)
    - self-hit: retrogen mający tylko siebie jako gene_id → międzygenowe
+   - **kontrola sumy**: `classify_4lists_strict.sh` na końcu sam wypisuje
+     liczbę retrogenów w każdej liście i sprawdza, czy sumują się do 14 874
+     (rozłączność list gwarantowana przez `assigned_names.txt`)
 2. **Walidacja ENCODE** - `bedtools intersect -f 0.1 -F 0.1`
 3. **Selekcja transkryptów** - intronowe: single-exon > długość zbliżona > lider 5';
    intergenic/CDS: długość zbliżona > lider 5'
@@ -57,6 +60,8 @@ Publications/                   ← publikacje źródłowe (pliki .txt)
 | CDS       | 398 | **0.596**       | 0.524 |
 | Intergenic| 941 | 0.518           | 0.476 |
 | Intronic  | 1038| 0.509           | 0.468 |
+
+**Test Shapiro-Wilk** (normalność): wszystkie kategorie p < 0.05 → rozkład nie normalny.
 
 **Test Mann-Whitney U (GC na 5'):**
 
