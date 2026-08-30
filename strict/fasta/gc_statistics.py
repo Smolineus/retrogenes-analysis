@@ -26,6 +26,10 @@ if __name__ == '__main__':
     data = load_csv('gc_content_results.csv')
     cats = ['INTERGENIC', 'INTRONIC', 'CDS']
 
+    # Liczba porównań parami (do korekty Bonferroniego)
+    n_comparisons = len(cats) * (len(cats) - 1) // 2
+    bonferroni_alpha = 0.05 / n_comparisons
+
     print('=' * 64)
     print('  1. TEST NORMALNOŚCI (Shapiro-Wilk) — GC na 5\'')
     print('=' * 64)
@@ -44,10 +48,16 @@ if __name__ == '__main__':
     print('  2. TEST MANN-WHITNEY U — GC na 5\'')
     print('=' * 64)
     print()
+    print(f'Korekta Bonferroniego: α = 0.05/{n_comparisons} = {bonferroni_alpha:.4f}')
+    print('(wynik istotny, gdy p < skorygowane α)')
+    print()
     for i in range(len(cats)):
         for j in range(i + 1, len(cats)):
             a, b = cats[i], cats[j]
             u, p = stats.mannwhitneyu(data[a], data[b], alternative='two-sided')
             sig = '***' if p < 0.001 else ('**' if p < 0.01 else ('*' if p < 0.05 else 'n.s.'))
-            print(f'  {a:<12} vs {b:<12} n1={len(data[a])} n2={len(data[b])} U={u:.1f} p={p:.3e}  {sig}')
+            # Czy istotne po korekcie Bonferroniego?
+            bonf = 'TAK' if p < bonferroni_alpha else 'nie'
+            print(f'  {a:<12} vs {b:<12} n1={len(data[a])} n2={len(data[b])} '
+                  f'U={u:.1f} p={p:.3e}  {sig}  (po Bonf.: {bonf})')
     print()
