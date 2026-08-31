@@ -24,9 +24,10 @@ strict/                         ← FINALNA analiza (najważniejsza)
     ├── intergenic_transcripts.fa ← 941 sekwencji
     ├── intronic_transcripts.fa   ← 1 038 sekwencji
     ├── cds_transcripts.fa        ← 398 sekwencji
-    ├── gc_analysis.py            ← analiza GC (okna 100 nt od 5' końca)
+    ├── gc_analysis_halves.py     ← analiza GC (podział na połowy, Mordstein 2020)
+    ├── gc_halves_results.csv     ← surowe dane GC (połowy)
     ├── gc_statistics.py          ← test Shapiro-Wilk + Mann-Whitney U
-    └── gc_content_results.csv    ← surowe dane GC
+    └── ...
 
 Publications/                   ← publikacje źródłowe (pliki .txt)
 human_retrocopies_merged.bed    ← dane wejściowe (14 874 retrogenów)
@@ -53,28 +54,30 @@ human_retrocopies_merged.bed    ← dane wejściowe (14 874 retrogenów)
 3. **Selekcja transkryptów** - intronowe: single-exon > długość zbliżona > lider 5';
    intergenic/CDS: długość zbliżona > lider 5'
 4. **Sekwencje** - `bedtools getfasta -split -s` (eksony poskładane, nić uwzględniona)
-5. **Analiza GC** - okno 100 nt od końca 5', porównanie między kategoriami
+5. **Analiza GC** - podział transkryptu na połowy (jak Mordstein 2020), porównanie
+   GC pierwszej połowy (5') vs drugiej połowy (3') + porównanie między kategoriami
 
-## Wyniki analizy GC content (koniec 5')
+## Wyniki analizy GC content (podział na połowy)
 
-| Kategoria | n | GC 5' (średnia) | GC całość (średnia) |
-|-----------|-----|-----------------|---------------------|
-| CDS       | 398 | **0.596**       | 0.524 |
-| Intergenic| 941 | 0.518           | 0.476 |
-| Intronic  | 1038| 0.509           | 0.468 |
+| Kategoria | n | GC 1. połowa (5') | GC 2. połowa (3') | Różnica |
+|-----------|-----|-------------------|-------------------|---------|
+| CDS       | 398 | **0.570**         | 0.477             | +0.093 |
+| Intergenic| 941 | 0.493             | 0.459             | +0.034 |
+| Intronic  | 1038| 0.483             | 0.453             | +0.030 |
 
-**Test Shapiro-Wilk** (normalność): wszystkie kategorie p < 0.05 → rozkład nie normalny.
+**Test Wilcoxona dla par** (pierwsza vs druga połowa): wszystkie kategorie
+istotnie wyższe GC na 5' (p < 0.001) — zgodne z Mordstein 2020.
 
-**Test Mann-Whitney U (GC na 5'):**
+**Test Shapiro-Wilk** (normalność GC 1. połowy): wszystkie kategorie p < 0.05
+→ rozkład nie normalny → test nieparametryczny.
+
+**Test Mann-Whitney U (GC 1. połowy między kategoriami, z korektą Bonferroniego):**
 
 | Porównanie | p-value | Istotność |
 |------------|---------|-----------|
-| Intergenic vs Intronic | 0.084 | n.s. |
-| Intergenic vs CDS      | <0.001 | *** |
-| Intronic vs CDS        | <0.001 | *** |
-
-**Gradient GC wzdłuż 5'→3'** (okna 100 nt): wszystkie kategorie mają
-najwyższe GC na końcu 5' i spadek w kierunku 3' — zgodne z Mordstein 2020.
+| Intergenic vs Intronic | 0.014 | * |
+| Intergenic vs CDS      | 1.4e-41 | *** |
+| Intronic vs CDS        | 8.9e-55 | *** |
 
 ## Wymagania
 

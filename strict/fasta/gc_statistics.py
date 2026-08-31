@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """
-Analiza statystyczna GC content (koniec 5') między kategoriami.
+Analiza statystyczna GC content (pierwsza połowa transkryptu, 5') między kategoriami.
 
 Kroki:
 1. Test normalności Shapiro-Wilka — uzasadnia wybór testu nieparametrycznego
    (jeśli dane NIE są normalne -> Mann-Whitney U)
 2. Test Manna-Whitneya U — porównanie GC 5' między kategoriami
+   (z korektą Bonferroniego dla wielokrotnych porównań)
 """
 
 import csv
@@ -18,12 +19,12 @@ def load_csv(path):
     with open(path) as f:
         reader = csv.DictReader(f)
         for row in reader:
-            data[row['kategoria']].append(float(row['gc_5prime']))
+            data[row['kategoria']].append(float(row['gc_pierwsza_polowa']))
     return data
 
 
 if __name__ == '__main__':
-    data = load_csv('gc_content_results.csv')
+    data = load_csv('gc_halves_results.csv')
     cats = ['INTERGENIC', 'INTRONIC', 'CDS']
 
     # Liczba porównań parami (do korekty Bonferroniego)
@@ -31,7 +32,7 @@ if __name__ == '__main__':
     bonferroni_alpha = 0.05 / n_comparisons
 
     print('=' * 64)
-    print('  1. TEST NORMALNOŚCI (Shapiro-Wilk) — GC na 5\'')
+    print('  1. TEST NORMALNOŚCI (Shapiro-Wilk) — GC 1. połowy (5\')')
     print('=' * 64)
     print()
     print(f'{"Kategoria":<15} {"n":>6} {"W":>10} {"p-value":>12} {"Wniosek":<20}')
@@ -45,7 +46,7 @@ if __name__ == '__main__':
     print()
 
     print('=' * 64)
-    print('  2. TEST MANN-WHITNEY U — GC na 5\'')
+    print('  2. TEST MANN-WHITNEY U — GC 1. połowy (5\')')
     print('=' * 64)
     print()
     print(f'Korekta Bonferroniego: α = 0.05/{n_comparisons} = {bonferroni_alpha:.4f}')

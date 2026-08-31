@@ -21,20 +21,24 @@
 - **% ENCODE** — odsetek retrogenów danej kategorii z potwierdzeniem w długich odczytach
   ENCODE (po liftoverze hg38→hs1), próg `-f 0.1 -F 0.1`.
 
-## Wyniki analizy GC content (koniec 5')
+## Wyniki analizy GC content (podział na połowy, jak Mordstein 2020)
 
-| Kategoria | n | GC 5' (średnia) | GC całość (średnia) |
-|-----------|-----|-----------------|---------------------|
-| CDS       | 398 | **0.596**       | 0.524 |
-| Intergenic| 941 | 0.518           | 0.476 |
-| Intronic  | 1038| 0.509           | 0.468 |
+| Kategoria | n | GC 1. połowa (5') | GC 2. połowa (3') | Różnica |
+|-----------|-----|-------------------|-------------------|---------|
+| CDS       | 398 | **0.570**         | 0.477             | +0.093 |
+| Intergenic| 941 | 0.493             | 0.459             | +0.034 |
+| Intronic  | 1038| 0.483             | 0.453             | +0.030 |
 
-**Test Shapiro-Wilk** (normalność): wszystkie kategorie p < 0.05 → rozkład nie normalny.
+**Test Wilcoxona dla par** (pierwsza vs druga połowa): wszystkie kategorie
+istotnie wyższe GC na 5' (p < 0.001).
 
-**Test Mann-Whitney U** (GC na 5'):
+**Test Shapiro-Wilk** (normalność GC 1. połowy): wszystkie kategorie p < 0.05
+→ rozkład nie normalny → test nieparametryczny.
+
+**Test Mann-Whitney U** (GC 1. połowy między kategoriami, z korektą Bonferroniego):
 
 | Porównanie | p-value | Istotność |
 |------------|---------|-----------|
-| Intergenic vs Intronic | 0.084 | n.s. |
-| Intergenic vs CDS      | <0.001 | *** |
-| Intronic vs CDS        | <0.001 | *** |
+| Intergenic vs Intronic | 0.014 | * |
+| Intergenic vs CDS      | 1.4e-41 | *** |
+| Intronic vs CDS        | 8.9e-55 | *** |
