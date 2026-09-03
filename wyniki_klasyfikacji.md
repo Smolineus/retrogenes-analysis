@@ -25,9 +25,9 @@
 
 | Kategoria | n | GC 1. połowa (5') | GC 2. połowa (3') | Różnica |
 |-----------|-----|-------------------|-------------------|---------|
-| CDS       | 398 | **0.570**         | 0.477             | +0.093 |
-| Intergenic| 941 | 0.493             | 0.459             | +0.034 |
-| Intronic  | 1038| 0.483             | 0.453             | +0.030 |
+| CDS       | 398 | **57.0%**         | 47.7%             | +9.3 p.p. |
+| Intergenic| 941 | 49.3%             | 45.9%             | +3.4 p.p. |
+| Intronic  | 1038| 48.3%             | 45.3%             | +3.0 p.p. |
 
 **Test Wilcoxona dla par** (pierwsza vs druga połowa): wszystkie kategorie
 istotnie wyższe GC na 5' (p < 0.001).
