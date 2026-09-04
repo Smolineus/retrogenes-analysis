@@ -28,6 +28,10 @@ liftOver
 # ==== WEJSCIOWE ENCODE (32 MB, odtwarzalne przez liftover) ====
 encode4_long_liftover.bed
 
+# ==== DANE WEJSCIOWE OD PROF. SZCZEŚNIAKA (niepublikowane, nie w repo) ====
+human_retrocopies_merged.bed
+strict/human_retrocopies_merged.bed
+
 # ==== PORZUCONE PODEJSCIA (nie w repo) ====
 cat_liftoff/
 merged_gtf/
@@ -38,6 +42,9 @@ merged_gtf/
 .DS_Store
 __pycache__/
 *.pyc
+
+# ==== ARCHIWUM DLA PROMOTORKI (nie w repo) ====
+analiza_retrogenow.zip
 
 # Metadane Windows z pobierania plików
 *:Zone.Identifier
