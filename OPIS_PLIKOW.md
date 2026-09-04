@@ -47,11 +47,13 @@ Pliki powstawały w tej kolejności:
   analizy GC (połowy, test Wilcoxona, test Mann-Whitney U z korektą Bonferroniego).
 - opracowany na podstawie wyników skryptów.
 
-### `human_retrocopies_merged.bed`
+### `human_retrocopies_merged.bed` (i kopia `strict/human_retrocopies_merged.bed`)
 - dane wejściowe — 14 874 retrokopie.
 - koordynaty genomowe (chr, start, koniec), nazwę retrogena
   (`retro_human_N|gen_rodzicielski|typ`) i nić.
 - od prof. Szcześniaka (CAT + Liftoff na genomie hs1).
+- **UWAGA:** plik istnieje **tylko lokalnie** na dysku; **nie jest** umieszczony
+  ani w tym archiwum, ani w repozytorium GitHub (dane niepublikowane).
 
 ---
 
@@ -164,6 +166,8 @@ Wszystkie wygenerowane przez `classify_4lists_strict.sh`.
 ### `human_retrocopies_merged.bed`
 -  kopia pliku wejściowego (retrokopie) w katalogu roboczym `strict/`.
 -  skopiowany z głównego poziomu.
+- **UWAGA:** plik istnieje **tylko lokalnie** na dysku; **nie jest** umieszczony
+  ani w tym archiwum, ani w repozytorium GitHub (dane niepublikowane).
 
 ---
 
